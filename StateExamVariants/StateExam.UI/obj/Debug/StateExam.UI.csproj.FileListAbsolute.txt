@@ -1,0 +1,14 @@
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.exe.config
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.exe
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.pdb
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.csprojResolveAssemblyReference.cache
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\MainWindow.g.cs
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\App.g.cs
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI_MarkupCompile.cache
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI_MarkupCompile.lref
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\MainWindow.baml
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.g.resources
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.Properties.Resources.resources
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.csproj.GenerateResource.Cache
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.exe
+C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.pdb
