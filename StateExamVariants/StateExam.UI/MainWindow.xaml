@@ -7,9 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <StackPanel x:Name="stackPanelQ" HorizontalAlignment="Left" Height="192" Margin="37,86,0,0" VerticalAlignment="Top" Width="444"/>
-        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="56,25,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click"/>
-        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187"/>
+        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="56,25,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16"/>
+        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187" FontSize="16"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="160,100,0,0" VerticalAlignment="Top" Width="83"/>
+        <ComboBox x:Name="comboBox_Copy" HorizontalAlignment="Left" Margin="160,143,0,0" VerticalAlignment="Top" Width="83"/>
+        <Label x:Name="label" Content="Exercises" HorizontalAlignment="Left" Margin="56,91,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
+        <Label x:Name="label_Copy" Content="Level" HorizontalAlignment="Left" Margin="56,134,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
 
     </Grid>
 </Window>

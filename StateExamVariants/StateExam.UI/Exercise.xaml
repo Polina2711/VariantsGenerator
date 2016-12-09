@@ -1,0 +1,17 @@
+﻿<Window x:Class="StateExam.UI.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StateExam.UI"
+        mc:Ignorable="d"
+        Title="Window2" Height="300" Width="300">
+    <Grid>
+        <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Height="30" Margin="15,30,0,0" VerticalAlignment="Top" Width="90" FontSize="16"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="30" Margin="105,30,0,0" VerticalAlignment="Top" Width="30"/>
+        <ListBox x:Name="listBox1" HorizontalAlignment="Left" Height="80" Margin="15,96,0,0" VerticalAlignment="Top" Width="267"/>
+        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Margin="15,65,0,0" VerticalAlignment="Top" Width="120" FontSize="16"/>
+        <Button x:Name="button" Content="Solution &amp; Answer" HorizontalAlignment="Left" Height="35" Margin="15,190,0,0" VerticalAlignment="Top" Width="267" FontSize="16"/>
+
+    </Grid>
+</Window>
