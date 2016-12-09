@@ -40,6 +40,30 @@ namespace StateExam.UI {
     /// </summary>
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
+        
+        #line 10 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.StackPanel stackPanelQ;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 11 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button generator;
+        
+        #line default
+        #line hidden
+        
+        
+        #line 12 "..\..\MainWindow.xaml"
+        [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
+        internal System.Windows.Controls.Button pdf;
+        
+        #line default
+        #line hidden
+        
         private bool _contentLoaded;
         
         /// <summary>
@@ -68,6 +92,24 @@ namespace StateExam.UI {
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Maintainability", "CA1502:AvoidExcessiveComplexity")]
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1800:DoNotCastUnnecessarily")]
         void System.Windows.Markup.IComponentConnector.Connect(int connectionId, object target) {
+            switch (connectionId)
+            {
+            case 1:
+            this.stackPanelQ = ((System.Windows.Controls.StackPanel)(target));
+            return;
+            case 2:
+            this.generator = ((System.Windows.Controls.Button)(target));
+            
+            #line 11 "..\..\MainWindow.xaml"
+            this.generator.Click += new System.Windows.RoutedEventHandler(this.generator_Click);
+            
+            #line default
+            #line hidden
+            return;
+            case 3:
+            this.pdf = ((System.Windows.Controls.Button)(target));
+            return;
+            }
             this._contentLoaded = true;
         }
     }

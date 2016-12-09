@@ -24,5 +24,10 @@ namespace StateExam.UI
         {
             InitializeComponent();
         }
+
+        private void generator_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
