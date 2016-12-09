@@ -10,3 +10,15 @@ C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVari
 C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
 C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Migrations.Initial.resources
 C:\Users\dbortsov\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll.config
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.pdb
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.xml
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csprojResolveAssemblyReference.cache
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Migrations.Initial.resources
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb

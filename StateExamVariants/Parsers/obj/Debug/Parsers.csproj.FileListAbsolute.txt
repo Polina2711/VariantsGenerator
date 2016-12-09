@@ -1,0 +1,11 @@
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\Parsers.exe.config
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\Parsers.exe
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\Parsers.pdb
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\obj\Debug\Parsers.csprojResolveAssemblyReference.cache
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\obj\Debug\Parsers.exe
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\obj\Debug\Parsers.pdb
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\itextsharp.dll
+C:\Users\ale\Desktop\TeamProject\StateExamVariants\Parsers\bin\Debug\itextsharp.xml

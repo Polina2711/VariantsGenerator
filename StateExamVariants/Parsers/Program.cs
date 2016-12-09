@@ -19,18 +19,22 @@ namespace Parsers
             doc.LoadHtml(getRequest("https://ege.sdamgia.ru/problem?id=26691&print=true"));
             HtmlNodeCollection c = doc.DocumentNode.SelectNodes("//p[@class='left_margin']");
             string[] oue = new string[c.Count];
-            for (int i = 0; i < 2; i++)
-            {
-                oue[i] = c[i].ParentNode.InnerText;
 
-                //oue[i] = oue[i].Replace("&shy;", null);
-                //oue[i] = oue[i].Replace("&nbsp;&nbsp;", "*");
-                //oue[i] = oue[i].Replace("&nbsp;", "");
-                //oue[i] = oue[i].Replace("&mdash;", "");
-                //oue[i] = oue[i].Replace("&minus;", "-");
-                Console.WriteLine(oue[i]);
-            }
-            Console.ReadLine();
+            PDFWriter pdf = new PDFWriter();
+            pdf.CreatePDF(oue,c);
+
+            //for (int i = 0; i < 2; i++)
+            //{
+            //    oue[i] = c[i].ParentNode.InnerText;
+
+            //    oue[i] = oue[i].Replace("&shy;", null);
+            //    oue[i] = oue[i].Replace("&nbsp;&nbsp;", "*");
+            //    oue[i] = oue[i].Replace("&nbsp;", "");
+            //    oue[i] = oue[i].Replace("&mdash;", "");
+            //    oue[i] = oue[i].Replace("&minus;", "-");
+            //    Console.WriteLine(oue[i]);
+            //}
+            //Console.ReadLine();
         }
 
         public static string getRequest(string url)
