@@ -15,13 +15,13 @@ using System.Windows.Shapes;
 namespace StateExam.UI
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for Window2.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class BLVariant : Window
     {
-        public Window1()
+        public BLVariant()
         {
-            InitializeComponent();
+            
         }
     }
 }

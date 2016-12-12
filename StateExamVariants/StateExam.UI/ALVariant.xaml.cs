@@ -14,14 +14,12 @@ using System.Windows.Shapes;
 
 namespace StateExam.UI
 {
-    /// <summary>
-    /// Interaction logic for Window1.xaml
-    /// </summary>
-    public partial class Window1 : Window
+  
+    public partial class AlVariant : Window
     {
-        public Window1()
+        public AlVariant()
         {
-            InitializeComponent();
+         
         }
     }
 }
