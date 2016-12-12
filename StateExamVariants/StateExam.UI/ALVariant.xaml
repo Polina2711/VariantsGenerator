@@ -25,7 +25,7 @@
         <Button x:Name="_1_Copy4" Content="13" HorizontalAlignment="Left" Height="20" Margin="105,167,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="_1_Copy5" Content="14" HorizontalAlignment="Left" Height="20" Margin="105,192,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.49,2.4"/>
         <Button x:Name="_1_Copy6" Content="15" HorizontalAlignment="Left" Height="20" Margin="105,217,0,0" VerticalAlignment="Top" Width="51"/>
-        <Button x:Name="_1_Copy7" Content="16" HorizontalAlignment="Left" Height="20" Margin="105,246,0,0" VerticalAlignment="Top" Width="51"/>
+        <Button x:Name="_1_Copy7" Content="16" HorizontalAlignment="Left" Height="20" Margin="105,242,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="_1_Copy8" Content="17" HorizontalAlignment="Left" Height="20" Margin="180,67,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="_1_Copy9" Content="18" HorizontalAlignment="Left" Height="20" Margin="180,92,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="_1_Copy10" Content="19" HorizontalAlignment="Left" Height="20" Margin="180,117,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.588,1.9"/>
