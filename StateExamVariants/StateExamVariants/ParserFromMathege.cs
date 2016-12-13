@@ -10,7 +10,7 @@ namespace StateExamVariants
 {
     class ParserFromMathege
     {
-        public static string[] GetTask(int n)
+        public string[] GetTask(int n)
         {
             string uri = "http://mathege.ru/or/ege10/ShowProblem.html?probId=" + n + "&print=yes";
             string html;

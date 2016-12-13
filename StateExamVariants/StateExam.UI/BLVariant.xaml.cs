@@ -21,7 +21,7 @@ namespace StateExam.UI
     {
         public BLVariant()
         {
-            
+            InitializeComponent();
         }
     }
 }

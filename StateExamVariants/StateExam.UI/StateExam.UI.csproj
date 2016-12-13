@@ -123,6 +123,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StateExamVariants\StateExamVariants.Data.csproj">
+      <Project>{771BCFF9-BE49-4D47-B3F4-EC3DAA5C2F9D}</Project>
+      <Name>StateExamVariants.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

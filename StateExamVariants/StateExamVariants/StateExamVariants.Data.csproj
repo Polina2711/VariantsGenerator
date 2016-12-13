@@ -38,6 +38,8 @@
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -47,6 +49,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context.cs" />
@@ -60,6 +63,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="ParserFromMathege.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -69,6 +73,20 @@
     <EmbeddedResource Include="Migrations\201612081414587_Initial.resx">
       <DependentUpon>201612081414587_Initial.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AL\Task1.txt" />
+    <EmbeddedResource Include="AL\Task10.txt" />
+    <EmbeddedResource Include="AL\Task11.txt" />
+    <EmbeddedResource Include="AL\Task12.txt" />
+    <EmbeddedResource Include="AL\Task2.txt" />
+    <EmbeddedResource Include="AL\Task3.txt" />
+    <EmbeddedResource Include="AL\Task4.txt" />
+    <EmbeddedResource Include="AL\Task5.txt" />
+    <EmbeddedResource Include="AL\Task6.txt" />
+    <EmbeddedResource Include="AL\Task7.txt" />
+    <EmbeddedResource Include="AL\Task8.txt" />
+    <EmbeddedResource Include="AL\Task9.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
