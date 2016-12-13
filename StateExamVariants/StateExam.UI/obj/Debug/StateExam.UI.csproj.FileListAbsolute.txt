@@ -60,3 +60,5 @@ C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\State
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\EntityFramework.dll
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\StateExamVariants.pdb
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\EntityFramework.xml
+C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.dll
+C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.xml

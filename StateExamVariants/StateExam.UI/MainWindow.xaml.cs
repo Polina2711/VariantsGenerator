@@ -118,5 +118,11 @@ namespace StateExam.UI
         {
 
         }
+
+        private void pdf_Click(object sender, RoutedEventArgs e)
+        {
+            Repository repo = new Repository();
+            repo.PDFWriter();
+        }
     }
 }

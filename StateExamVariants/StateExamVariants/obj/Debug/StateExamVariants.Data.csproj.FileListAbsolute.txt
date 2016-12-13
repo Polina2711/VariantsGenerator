@@ -46,3 +46,5 @@ C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\obj\Debug\
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
+C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.dll
+C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.xml
