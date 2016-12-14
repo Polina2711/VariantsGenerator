@@ -15,25 +15,25 @@
         </ComboBox>
         <Label x:Name="exerciseslabel" Content="Exercises" HorizontalAlignment="Left" Margin="56,73,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
         <Label x:Name="levellabel" Content="Level" HorizontalAlignment="Left" Margin="277,73,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
-        <CheckBox x:Name="task1checkbox" Content="1" HorizontalAlignment="Left" Margin="56,109,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task2checkbox" Content="2" HorizontalAlignment="Left" Margin="56,130,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task3checkbox" Content="3" HorizontalAlignment="Left" Margin="56,151,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task4checkbox" Content="4" HorizontalAlignment="Left" Margin="56,172,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task5checkbox" Content="5" HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task6checkbox" Content="6" HorizontalAlignment="Left" Margin="56,214,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task7checkbox" Content="7" HorizontalAlignment="Left" Margin="56,235,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task8checkbox" Content="8" HorizontalAlignment="Left" Margin="56,256,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task9checkbox" Content="9" HorizontalAlignment="Left" Margin="56,277,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task10checkbox" Content="10" HorizontalAlignment="Left" Margin="56,298,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task11checkbox" Content="11" HorizontalAlignment="Left" Margin="140,109,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task12checkbox" Content="12" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task13checkbox" Content="13" HorizontalAlignment="Left" Margin="140,151,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task14checkbox" Content="14" HorizontalAlignment="Left" Margin="140,172,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task15checkbox" Content="15" HorizontalAlignment="Left" Margin="140,193,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task16checkbox" Content="16" HorizontalAlignment="Left" Margin="140,214,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task17checkbox" Content="17" HorizontalAlignment="Left" Margin="140,235,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task18checkbox" Content="18" HorizontalAlignment="Left" Margin="140,256,0,0" VerticalAlignment="Top" Checked="checkBox_Checked"/>
-        <CheckBox x:Name="task19checkbox" Content="19" HorizontalAlignment="Left" Margin="140,277,0,0" VerticalAlignment="Top" Checked="checkBox_Checked" RenderTransformOrigin="0.5,2.438"/>
+        <CheckBox x:Name="task1checkbox" Content="1" HorizontalAlignment="Left" Margin="56,109,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task2checkbox" Content="2" HorizontalAlignment="Left" Margin="56,130,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task3checkbox" Content="3" HorizontalAlignment="Left" Margin="56,151,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task4checkbox" Content="4" HorizontalAlignment="Left" Margin="56,172,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task5checkbox" Content="5" HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task6checkbox" Content="6" HorizontalAlignment="Left" Margin="56,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task7checkbox" Content="7" HorizontalAlignment="Left" Margin="56,235,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task8checkbox" Content="8" HorizontalAlignment="Left" Margin="56,256,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task9checkbox" Content="9" HorizontalAlignment="Left" Margin="56,277,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task10checkbox" Content="10" HorizontalAlignment="Left" Margin="56,298,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task11checkbox" Content="11" HorizontalAlignment="Left" Margin="140,109,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task12checkbox" Content="12" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task13checkbox" Content="13" HorizontalAlignment="Left" Margin="140,151,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task14checkbox" Content="14" HorizontalAlignment="Left" Margin="140,172,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task15checkbox" Content="15" HorizontalAlignment="Left" Margin="140,193,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task16checkbox" Content="16" HorizontalAlignment="Left" Margin="140,214,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task17checkbox" Content="17" HorizontalAlignment="Left" Margin="140,235,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task18checkbox" Content="18" HorizontalAlignment="Left" Margin="140,256,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="task19checkbox" Content="19" HorizontalAlignment="Left" Margin="140,277,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,2.438"/>
         <ComboBox x:Name="task1comboBox" HorizontalAlignment="Left" Margin="84,108,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>

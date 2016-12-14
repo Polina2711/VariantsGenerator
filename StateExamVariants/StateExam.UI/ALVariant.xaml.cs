@@ -23,14 +23,16 @@ namespace StateExam.UI
             InitializeComponent();
         }
 
-        Repository repo = new Repository();
+        OutputFormer output = new OutputFormer();
+        VariantGenerator varger = new VariantGenerator();
 
         private void Task1button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("1");
-            List<UIElement> result = repo.Output(1);
+            List<UIElement> result = output.FormOutputText(1);
             if (result == null)
                 return;
             else
@@ -38,14 +40,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task2button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("2");
-            List<UIElement> result = repo.Output(2);
+            List<UIElement> result = output.FormOutputText(2);
             if (result == null)
                 return;
             else
@@ -53,14 +57,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task3button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("3");
-            List<UIElement> result = repo.Output(3);
+            List<UIElement> result = output.FormOutputText(3);
             if (result == null)
                 return;
             else
@@ -68,14 +74,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task4button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("4");
-            List<UIElement> result = repo.Output(4);
+            List<UIElement> result = output.FormOutputText(4);
             if (result == null)
                 return;
             else
@@ -83,14 +91,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task5button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("5");
-            List<UIElement> result = repo.Output(5);
+            List<UIElement> result = output.FormOutputText(5);
             if (result == null)
                 return;
             else
@@ -98,14 +108,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task6button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("6");
-            List<UIElement> result = repo.Output(6);
+            List<UIElement> result = output.FormOutputText(6);
             if (result == null)
                 return;
             else
@@ -113,14 +125,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task7button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("7");
-            List<UIElement> result = repo.Output(7);
+            List<UIElement> result = output.FormOutputText(7);
             if (result == null)
                 return;
             else
@@ -128,14 +142,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task8button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("8");
-            List<UIElement> result = repo.Output(8);
+            List<UIElement> result = output.FormOutputText(8);
             if (result == null)
                 return;
             else
@@ -143,14 +159,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task9button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("9");
-            List<UIElement> result = repo.Output(9);
+            List<UIElement> result = output.FormOutputText(9);
             if (result == null)
                 return;
             else
@@ -158,14 +176,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task10button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("10");
-            List<UIElement> result = repo.Output(10);
+            List<UIElement> result = output.FormOutputText(10);
             if (result == null)
                 return;
             else
@@ -173,14 +193,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task11button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("11");
-            List<UIElement> result = repo.Output(11);
+            List<UIElement> result = output.FormOutputText(11);
             if (result == null)
                 return;
             else
@@ -188,14 +210,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task12button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("12");
-            List<UIElement> result = repo.Output(12);
+            List<UIElement> result = output.FormOutputText(12);
             if (result == null)
                 return;
             else
@@ -203,14 +227,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task13button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("13");
-            List<UIElement> result = repo.Output(13);
+            List<UIElement> result = output.FormOutputText(13);
             if (result == null)
                 return;
             else
@@ -218,14 +244,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task14button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("14");
-            List<UIElement> result = repo.Output(14);
+            List<UIElement> result = output.FormOutputText(14);
             if (result == null)
                 return;
             else
@@ -233,14 +261,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task15button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("15");
-            List<UIElement> result = repo.Output(15);
+            List<UIElement> result = output.FormOutputText(15);
             if (result == null)
                 return;
             else
@@ -248,14 +278,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task16button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("16");
-            List<UIElement> result = repo.Output(16);
+            List<UIElement> result = output.FormOutputText(16);
             if (result == null)
                 return;
             else
@@ -263,15 +295,17 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
     
 
         private void Task17button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("17");
-            List<UIElement> result = repo.Output(17);
+            List<UIElement> result = output.FormOutputText(17);
             if (result == null)
                 return;
             else
@@ -279,14 +313,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
     private void Task18button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("18");
-            List<UIElement> result = repo.Output(18);
+            List<UIElement> result = output.FormOutputText(18);
             if (result == null)
                 return;
             else
@@ -294,14 +330,16 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
 
         private void Task19button_Click(object sender, RoutedEventArgs e)
         {
+            output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
             window.listBox.Items.Add("19");
-            List<UIElement> result = repo.Output(19);
+            List<UIElement> result = output.FormOutputText(19);
             if (result == null)
                 return;
             else
@@ -309,6 +347,7 @@ namespace StateExam.UI
                 foreach (var item in result)
                     window.outputStackPanel.Children.Add(item);
             }
+            output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }
     }
 }

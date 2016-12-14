@@ -65,9 +65,11 @@
       <DependentUpon>201612081414587_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="OutputFormer.cs" />
     <Compile Include="ParserFromMathege.cs" />
+    <Compile Include="PDFWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository.cs" />
+    <Compile Include="VariantGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

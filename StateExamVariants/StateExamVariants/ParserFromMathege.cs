@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace StateExamVariants
 {
-    class ParserFromMathege
+    public class ParserFromMathege
     {
         public string[] GetTask(int n)
         {
@@ -28,6 +28,8 @@ namespace StateExamVariants
                             .Replace("</i>", "")
                             .Replace("<img src=", "|")
                             .Replace("</p>", "");
+                            //HERE  
+                            
             var FinalTask = TaskString.Split('|');
             if (TaskParts.Length == 2)
             {
