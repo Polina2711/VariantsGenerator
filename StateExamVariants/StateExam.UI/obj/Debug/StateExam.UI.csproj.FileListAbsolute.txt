@@ -62,3 +62,31 @@ C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\State
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\EntityFramework.xml
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.dll
 C:\Users\ale\Desktop\TeamProject1\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.xml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.exe.config
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.exe
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.pdb
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.exe
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.pdb
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\StateExamVariants.dll
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\EntityFramework.dll
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.dll
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\StateExamVariants.pdb
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\EntityFramework.xml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\bin\Debug\itextsharp.xml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.csprojResolveAssemblyReference.cache
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\MainWindow.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\BLVariant.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\ALVariant.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\Exercise.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\SolutionAndAnswer.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\App.g.cs
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI_MarkupCompile.cache
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI_MarkupCompile.lref
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\MainWindow.baml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\BLVariant.baml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\ALVariant.baml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\Exercise.baml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\SolutionAndAnswer.baml
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.g.resources
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.Properties.Resources.resources
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.csproj.GenerateResource.Cache

@@ -27,8 +27,10 @@ namespace StateExamVariants
                             .Replace("<i>", "")
                             .Replace("</i>", "")
                             .Replace("<img src=", "|")
-                            .Replace("</p>", "");
-                            //HERE  
+                            .Replace("</p>", "")
+                            .Replace("&nbsp","")
+                            .Replace("&mdash","-")
+                            .Replace(";","");
                             
             var FinalTask = TaskString.Split('|');
             if (TaskParts.Length == 2)

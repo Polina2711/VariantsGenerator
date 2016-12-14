@@ -124,6 +124,7 @@ namespace StateExam.UI
             VariantGenerator varger = new VariantGenerator();
             pdf.GetAllDict += varger.GetDict;
             pdf.AddToPDFFile();
+            MessageBox.Show("Tasks have been added to a PDF file", "Notification");
         }
     }
 }
