@@ -119,7 +119,89 @@ namespace StateExam.UI
             }
 
             else if (levelcombobox.Text == "Base")
-            { }
+            {
+                varger.ClearDict();
+
+                if (task1checkbox.IsChecked == true)
+                {
+                    varger.Generator(1, int.Parse(task1comboBox.Text));
+                }
+                if (task2checkbox.IsChecked == true)
+                {
+                    varger.Generator(2, int.Parse(task2comboBox.Text));
+                }
+                if (task3checkbox.IsChecked == true)
+                {
+                    varger.Generator(3, int.Parse(task3comboBox.Text));
+                }
+                if (task4checkbox.IsChecked == true)
+                {
+                    varger.Generator(4, int.Parse(task4comboBox.Text));
+                }
+                if (task5checkbox.IsChecked == true)
+                {
+                    varger.Generator(5, int.Parse(task5comboBox.Text));
+                }
+                if (task6checkbox.IsChecked == true)
+                {
+                    varger.Generator(6, int.Parse(task6comboBox.Text));
+                }
+                if (task7checkbox.IsChecked == true)
+                {
+                    varger.Generator(7, int.Parse(task7comboBox.Text));
+                }
+                if (task8checkbox.IsChecked == true)
+                {
+                    varger.Generator(8, int.Parse(task8comboBox.Text));
+                }
+                if (task9checkbox.IsChecked == true)
+                {
+                    varger.Generator(9, int.Parse(task9comboBox.Text));
+                }
+                if (task10checkbox.IsChecked == true)
+                {
+                    varger.Generator(10, int.Parse(task10comboBox.Text));
+                }
+                if (task11checkbox.IsChecked == true)
+                {
+                    varger.Generator(11, int.Parse(task11comboBox.Text));
+                }
+                if (task12checkbox.IsChecked == true)
+                {
+                    varger.Generator(12, int.Parse(task12comboBox.Text));
+                }
+                if (task13checkbox.IsChecked == true)
+                {
+                    varger.Generator(13, int.Parse(task13comboBox.Text));
+                }
+                if (task14checkbox.IsChecked == true)
+                {
+                    varger.Generator(14, int.Parse(task14comboBox.Text));
+                }
+                if (task15checkbox.IsChecked == true)
+                {
+                    varger.Generator(15, int.Parse(task15comboBox.Text));
+                }
+                if (task16checkbox.IsChecked == true)
+                {
+                    varger.Generator(16, int.Parse(task16comboBox.Text));
+                }
+                if (task17checkbox.IsChecked == true)
+                {
+                    varger.Generator(17, int.Parse(task17comboBox.Text));
+                }
+                if (task18checkbox.IsChecked == true)
+                {
+                    varger.Generator(18, int.Parse(task18comboBox.Text));
+                }
+                if (task19checkbox.IsChecked == true)
+                {
+                    varger.Generator(19, int.Parse(task19comboBox.Text));
+                }
+
+                BLVariant window= new BLVariant();
+                window.Show();
+            }
 
             else
                 MessageBox.Show("Choose the level of the variant", "Error");

@@ -29,6 +29,7 @@
         <Button x:Name="B17" Content="17" HorizontalAlignment="Left" Height="20" Margin="180,67,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="B18" Content="18" HorizontalAlignment="Left" Height="20" Margin="180,92,0,0" VerticalAlignment="Top" Width="51"/>
         <Button x:Name="B19" Content="19" HorizontalAlignment="Left" Height="20" Margin="180,117,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.588,1.9"/>
+        <Button x:Name="B20" Content="20" HorizontalAlignment="Left" Height="20" Margin="180,142,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.588,1.9"/>
 
     </Grid>
 </Window>

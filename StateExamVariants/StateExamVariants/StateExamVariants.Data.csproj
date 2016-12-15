@@ -96,6 +96,28 @@
   <ItemGroup>
     <EmbeddedResource Include="AL\Task1.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="BL\Base1.txt" />
+    <Content Include="BL\Base10.txt" />
+    <Content Include="BL\Base11.txt" />
+    <Content Include="BL\Base12.txt" />
+    <Content Include="BL\Base13.txt" />
+    <Content Include="BL\Base14.txt" />
+    <Content Include="BL\Base15.txt" />
+    <Content Include="BL\Base16.txt" />
+    <Content Include="BL\Base17.txt" />
+    <Content Include="BL\Base18.txt" />
+    <Content Include="BL\Base19.txt" />
+    <Content Include="BL\Base2.txt" />
+    <Content Include="BL\Base20.txt" />
+    <Content Include="BL\Base3.txt" />
+    <Content Include="BL\Base4.txt" />
+    <Content Include="BL\Base5.txt" />
+    <Content Include="BL\Base6.txt" />
+    <Content Include="BL\Base7.txt" />
+    <Content Include="BL\Base8.txt" />
+    <Content Include="BL\Base9.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
