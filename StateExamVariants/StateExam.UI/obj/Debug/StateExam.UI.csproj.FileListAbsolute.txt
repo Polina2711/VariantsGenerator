@@ -146,3 +146,6 @@ C:\Users\dbortsov\Source\Repos\VariantsGenerator8\StateExamVariants\StateExam.UI
 C:\Users\dbortsov\Source\Repos\VariantsGenerator8\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.g.resources
 C:\Users\dbortsov\Source\Repos\VariantsGenerator8\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.Properties.Resources.resources
 C:\Users\dbortsov\Source\Repos\VariantsGenerator8\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.csproj.GenerateResource.Cache
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\bin\Debug\StateExam.UI.exe.config
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.exe
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExam.UI\obj\Debug\StateExam.UI.pdb
