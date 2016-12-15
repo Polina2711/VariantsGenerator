@@ -126,11 +126,31 @@ namespace StateExam.UI
 
         private void pdf_Click(object sender, RoutedEventArgs e)
         {
-            PDFWriter pdf = new PDFWriter();
-            VariantGenerator varger = new VariantGenerator();
-            pdf.GetAllDict += varger.GetDict;
-            pdf.AddToPDFFile();
-            MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            //    PDFWriter pdf = new PDFWriter();
+            //    VariantGenerator varger = new VariantGenerator();
+            //    pdf.GetAllDict += varger.GetDict;
+            //    pdf.AddToPDFFile();
+            //    MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            // Configure save file dialog box
+            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
+            dlg.FileName = "Variant"; // Default file name
+            dlg.DefaultExt = ".pdf"; // Default file extension
+            dlg.Filter = "PDF file (.pdf)|*.pdf"; // Filter files by extension
+
+            // Show save file dialog box
+            Nullable<bool> result = dlg.ShowDialog();
+
+            // Process save file dialog box results
+            if (result == true)
+            {
+                // Save document
+                string filename = dlg.FileName;
+                PDFWriter pdf = new PDFWriter();
+                VariantGenerator varger = new VariantGenerator();
+                pdf.GetAllDict += varger.GetDict;
+                pdf.AddToPDFFile(filename);
+                MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            }
         }
     }
 }

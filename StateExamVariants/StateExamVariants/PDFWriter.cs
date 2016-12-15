@@ -13,13 +13,13 @@ namespace StateExamVariants
     {
         public event Func<Dictionary<int, List<string[]>>> GetAllDict;
 
-        public void AddToPDFFile()
+        public void AddToPDFFile(string filename)
         {
             var doc = new Document();
             string ttf = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Fonts), "ARIAL.TTF");
             var baseFont = BaseFont.CreateFont(ttf, BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
             var font = new Font(baseFont, iTextSharp.text.Font.DEFAULTSIZE, iTextSharp.text.Font.NORMAL);
-            PdfWriter.GetInstance(doc, new FileStream(@"\Users\ale\Documents\Visual Studio 2015\Projects\Document.pdf", FileMode.Create));
+            PdfWriter.GetInstance(doc, new FileStream(@"C:\Users\dbortsov\Desktop\Document.pdf", FileMode.Create));
             doc.Open();
 
             foreach (var item in GetAllDict?.Invoke())
@@ -47,6 +47,8 @@ namespace StateExamVariants
 
             doc.Close();
         }
+
+       
     }
 }
 
