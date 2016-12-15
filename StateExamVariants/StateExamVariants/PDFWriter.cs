@@ -26,6 +26,8 @@ namespace StateExamVariants
             {
                 foreach (var array in item.Value)
                 {
+                    doc.Add(new Paragraph(" ", font));
+                    doc.Add(new Paragraph(string.Format("№" + item.Key), font));
                     foreach (var strng in array)
                     {
                         if (strng.Count() != 0)

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\obj\Debug\
+C:\Users\ale\Desktop\TeamProject2\StateExamVariants\StateExam.UI\obj\Debug\
 StateExam.UI
 none
 false
 DEBUG;TRACE
-C:\Users\Николай Саныч\Source\Repos\VariantsGenerator2\StateExamVariants\StateExam.UI\App.xaml
+C:\Users\ale\Desktop\TeamProject2\StateExamVariants\StateExam.UI\App.xaml
 5-2035856780
 
-13755367080
-141561069500
+13-448078930
+14802659927
 MainWindow.xaml;BLVariant.xaml;ALVariant.xaml;Exercise.xaml;SolutionAndAnswer.xaml;
 
-True
+False
 

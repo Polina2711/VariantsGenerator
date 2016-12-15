@@ -81,7 +81,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="AL\Task1.txt" />
     <EmbeddedResource Include="AL\Task10.txt" />
     <EmbeddedResource Include="AL\Task11.txt" />
     <EmbeddedResource Include="AL\Task12.txt" />
@@ -93,6 +92,9 @@
     <EmbeddedResource Include="AL\Task7.txt" />
     <EmbeddedResource Include="AL\Task8.txt" />
     <EmbeddedResource Include="AL\Task9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AL\Task1.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

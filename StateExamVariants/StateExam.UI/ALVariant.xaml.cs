@@ -38,7 +38,9 @@ namespace StateExam.UI
             else
             {
                 foreach (var item in result)
-                    window.outputStackPanel.Children.Add(item);
+                {
+                    window.outputListbox.Items.Add(item);
+                }
             }
             output.GetValueFromDict -= varger.GetValueByKeyFromDict;
         }

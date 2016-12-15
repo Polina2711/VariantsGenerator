@@ -32,7 +32,7 @@ namespace StateExam.UI
             ParserFromMathege parser = new ParserFromMathege();
             varger.GetTaskProblem += parser.GetTask;
 
-            if (levelcombobox.Text=="Advanced")
+            if (levelcombobox.Text == "Advanced")
             {
                 varger.ClearDict();
 
@@ -116,6 +116,12 @@ namespace StateExam.UI
                 AlVariant window = new AlVariant();
                 window.Show();
             }
+
+            else if (levelcombobox.Text == "Base")
+            { }
+
+            else
+                MessageBox.Show("Choose the level of the variant", "Error");
         }
 
         private void pdf_Click(object sender, RoutedEventArgs e)

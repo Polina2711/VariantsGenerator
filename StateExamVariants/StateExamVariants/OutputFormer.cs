@@ -23,30 +23,46 @@ namespace StateExamVariants
             {
                 foreach (var stringarray in result)
                 {
+                    outputstuff.Add(new TextBlock
+                    {
+                        Text = "",
+                        Margin = new Thickness(5, 0, 0, 0),
+                        VerticalAlignment = VerticalAlignment.Center
+                    });
+                    outputstuff.Add(new TextBlock
+                    {
+                        Text=string.Format("№" + taskid),
+                        Margin=new Thickness(5,0,0,0),
+                        VerticalAlignment=VerticalAlignment.Center
+                    });
+                   
                     foreach (var item in stringarray)
                     {
                         if (item.Count() != 0)
                         {
-                            if (item[0] != '/')
-                                outputstuff.Add(new TextBlock
-                                {
-                                    Text = item,
-                                    Margin = new Thickness(5, 0, 0, 0),
-                                    VerticalAlignment = VerticalAlignment.Center
-                                });
-                            else
+                            if (!item.Equals(""))
                             {
-                                BitmapImage image = new BitmapImage();
-                                image.BeginInit();
-                                image.UriSource = new Uri("http://mathege.ru" + item, UriKind.Absolute);
-                                image.EndInit();
-                                outputstuff.Add(new System.Windows.Controls.Image
+                                if (item[0] != '/')
+                                    outputstuff.Add(new TextBlock
+                                    {
+                                        Text = item,
+                                        Margin = new Thickness(5, 0, 0, 0),
+                                        VerticalAlignment = VerticalAlignment.Center
+                                    });
+                                else
                                 {
-                                    Source = image,
-                                    Margin = new Thickness(5, 0, 0, 0),
-                                    Width = 100,
-                                    Height = 40
-                                });
+                                    BitmapImage image = new BitmapImage();
+                                    image.BeginInit();
+                                    image.UriSource = new Uri("http://mathege.ru" + item, UriKind.Absolute);
+                                    image.EndInit();
+                                    outputstuff.Add(new System.Windows.Controls.Image
+                                    {
+                                        Source = image,
+                                        Margin = new Thickness(5, 0, 0, 0),
+                                        Width = 100,
+                                        Height = 40
+                                    });
+                                }
                             }
                         }
                     }
