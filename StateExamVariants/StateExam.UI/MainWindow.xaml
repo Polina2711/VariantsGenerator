@@ -7,34 +7,34 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="56,25,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16"/>
-        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187" FontSize="16" Click="pdf_Click"/>
-        <ComboBox x:Name="levelcombobox" HorizontalAlignment="Left" Margin="278,109,0,0" VerticalAlignment="Top" Width="83">
+        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="56,25,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16" IsEnabled="False"/>
+        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187" FontSize="16" Click="pdf_Click" IsEnabled="False"/>
+        <ComboBox x:Name="levelcombobox" HorizontalAlignment="Left" Margin="57,126,0,0" VerticalAlignment="Top" Width="83" SelectionChanged="levelcombobox_SelectionChanged">
             <ComboBoxItem Content="Advanced" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="Base" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <Label x:Name="exerciseslabel" Content="Exercises" HorizontalAlignment="Left" Margin="56,73,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
-        <Label x:Name="levellabel" Content="Level" HorizontalAlignment="Left" Margin="277,73,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
-        <CheckBox x:Name="task1checkbox" Content="1" HorizontalAlignment="Left" Margin="56,109,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task2checkbox" Content="2" HorizontalAlignment="Left" Margin="56,130,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task3checkbox" Content="3" HorizontalAlignment="Left" Margin="56,151,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task4checkbox" Content="4" HorizontalAlignment="Left" Margin="56,172,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task5checkbox" Content="5" HorizontalAlignment="Left" Margin="56,193,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task6checkbox" Content="6" HorizontalAlignment="Left" Margin="56,214,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task7checkbox" Content="7" HorizontalAlignment="Left" Margin="56,235,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task8checkbox" Content="8" HorizontalAlignment="Left" Margin="56,256,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task9checkbox" Content="9" HorizontalAlignment="Left" Margin="56,277,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task10checkbox" Content="10" HorizontalAlignment="Left" Margin="56,298,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task11checkbox" Content="11" HorizontalAlignment="Left" Margin="140,109,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task12checkbox" Content="12" HorizontalAlignment="Left" Margin="140,130,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task13checkbox" Content="13" HorizontalAlignment="Left" Margin="140,151,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task14checkbox" Content="14" HorizontalAlignment="Left" Margin="140,172,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task15checkbox" Content="15" HorizontalAlignment="Left" Margin="140,193,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task16checkbox" Content="16" HorizontalAlignment="Left" Margin="140,214,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task17checkbox" Content="17" HorizontalAlignment="Left" Margin="140,235,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task18checkbox" Content="18" HorizontalAlignment="Left" Margin="140,256,0,0" VerticalAlignment="Top"/>
-        <CheckBox x:Name="task19checkbox" Content="19" HorizontalAlignment="Left" Margin="140,277,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,2.438"/>
-        <ComboBox x:Name="task1comboBox" HorizontalAlignment="Left" Margin="84,108,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <Label x:Name="exerciseslabel" Content="Exercises" HorizontalAlignment="Left" Margin="213,76,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
+        <Label x:Name="levellabel" Content="Level" HorizontalAlignment="Left" Margin="56,90,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
+        <CheckBox x:Name="task1checkbox" Content="1" HorizontalAlignment="Left" Margin="213,112,0,0" VerticalAlignment="Top" Checked="task1checkbox_Checked"/>
+        <CheckBox x:Name="task2checkbox" Content="2" HorizontalAlignment="Left" Margin="213,133,0,0" VerticalAlignment="Top" Checked="task2checkbox_Checked"/>
+        <CheckBox x:Name="task3checkbox" Content="3" HorizontalAlignment="Left" Margin="213,154,0,0" VerticalAlignment="Top" Checked="task3checkbox_Checked"/>
+        <CheckBox x:Name="task4checkbox" Content="4" HorizontalAlignment="Left" Margin="213,175,0,0" VerticalAlignment="Top" Checked="task4checkbox_Checked"/>
+        <CheckBox x:Name="task5checkbox" Content="5" HorizontalAlignment="Left" Margin="213,196,0,0" VerticalAlignment="Top" Checked="task5checkbox_Checked"/>
+        <CheckBox x:Name="task6checkbox" Content="6" HorizontalAlignment="Left" Margin="213,217,0,0" VerticalAlignment="Top" Checked="task6checkbox_Checked"/>
+        <CheckBox x:Name="task7checkbox" Content="7" HorizontalAlignment="Left" Margin="213,238,0,0" VerticalAlignment="Top" Checked="task7checkbox_Checked"/>
+        <CheckBox x:Name="task8checkbox" Content="8" HorizontalAlignment="Left" Margin="213,259,0,0" VerticalAlignment="Top" Checked="task8checkbox_Checked"/>
+        <CheckBox x:Name="task9checkbox" Content="9" HorizontalAlignment="Left" Margin="213,280,0,0" VerticalAlignment="Top" Checked="task9checkbox_Checked"/>
+        <CheckBox x:Name="task10checkbox" Content="10" HorizontalAlignment="Left" Margin="213,301,0,0" VerticalAlignment="Top" Checked="task10checkbox_Checked"/>
+        <CheckBox x:Name="task11checkbox" Content="11" HorizontalAlignment="Left" Margin="297,112,0,0" VerticalAlignment="Top" Checked="task11checkbox_Checked"/>
+        <CheckBox x:Name="task12checkbox" Content="12" HorizontalAlignment="Left" Margin="297,133,0,0" VerticalAlignment="Top" Checked="task12checkbox_Checked"/>
+        <CheckBox x:Name="task13checkbox" Content="13" HorizontalAlignment="Left" Margin="297,154,0,0" VerticalAlignment="Top" Checked="task13checkbox_Checked"/>
+        <CheckBox x:Name="task14checkbox" Content="14" HorizontalAlignment="Left" Margin="297,175,0,0" VerticalAlignment="Top" Checked="task14checkbox_Checked"/>
+        <CheckBox x:Name="task15checkbox" Content="15" HorizontalAlignment="Left" Margin="297,196,0,0" VerticalAlignment="Top" Checked="task15checkbox_Checked"/>
+        <CheckBox x:Name="task16checkbox" Content="16" HorizontalAlignment="Left" Margin="297,217,0,0" VerticalAlignment="Top" Checked="task16checkbox_Checked"/>
+        <CheckBox x:Name="task17checkbox" Content="17" HorizontalAlignment="Left" Margin="297,238,0,0" VerticalAlignment="Top" Checked="task17checkbox_Checked"/>
+        <CheckBox x:Name="task18checkbox" Content="18" HorizontalAlignment="Left" Margin="297,259,0,0" VerticalAlignment="Top" Checked="task18checkbox_Checked"/>
+        <CheckBox x:Name="task19checkbox" Content="19" HorizontalAlignment="Left" Margin="297,280,0,0" VerticalAlignment="Top" Checked="task19checkbox_Checked"/>
+        <ComboBox x:Name="task1comboBox" HorizontalAlignment="Left" Margin="241,111,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -46,7 +46,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task2comboBox" HorizontalAlignment="Left" Margin="84,130,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task2comboBox" HorizontalAlignment="Left" Margin="241,133,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -58,7 +58,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task3comboBox" HorizontalAlignment="Left" Margin="84,150,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task3comboBox" HorizontalAlignment="Left" Margin="241,153,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -70,7 +70,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task4comboBox" HorizontalAlignment="Left" Margin="84,171,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task4comboBox" HorizontalAlignment="Left" Margin="241,174,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -82,7 +82,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task5comboBox" HorizontalAlignment="Left" Margin="84,192,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task5comboBox" HorizontalAlignment="Left" Margin="241,195,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -94,7 +94,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task6comboBox" HorizontalAlignment="Left" Margin="84,212,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task6comboBox" HorizontalAlignment="Left" Margin="241,215,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -106,7 +106,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task7comboBox" HorizontalAlignment="Left" Margin="84,233,0,0" VerticalAlignment="Top" Width="40" Height="17" RenderTransformOrigin="0.4,1.588">
+        <ComboBox x:Name="task7comboBox" HorizontalAlignment="Left" Margin="241,236,0,0" VerticalAlignment="Top" Width="40" Height="17" RenderTransformOrigin="0.4,1.588">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -118,7 +118,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task8comboBox" HorizontalAlignment="Left" Margin="84,255,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task8comboBox" HorizontalAlignment="Left" Margin="241,258,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -130,7 +130,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task9comboBox" HorizontalAlignment="Left" Margin="84,276,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task9comboBox" HorizontalAlignment="Left" Margin="241,279,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -142,7 +142,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task10comboBox" HorizontalAlignment="Left" Margin="86,297,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task10comboBox" HorizontalAlignment="Left" Margin="243,300,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -154,7 +154,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task11comboBox" HorizontalAlignment="Left" Margin="185,108,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task11comboBox" HorizontalAlignment="Left" Margin="342,111,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -166,7 +166,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task12comboBox" HorizontalAlignment="Left" Margin="185,130,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task12comboBox" HorizontalAlignment="Left" Margin="342,133,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -178,7 +178,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task13comboBox" HorizontalAlignment="Left" Margin="185,150,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task13comboBox" HorizontalAlignment="Left" Margin="342,153,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -190,7 +190,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task14comboBox" HorizontalAlignment="Left" Margin="185,171,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task14comboBox" HorizontalAlignment="Left" Margin="342,174,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -202,7 +202,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task15comboBox" HorizontalAlignment="Left" Margin="185,193,0,0" VerticalAlignment="Top" Width="40" Height="17" RenderTransformOrigin="0.85,-0.412">
+        <ComboBox x:Name="task15comboBox" HorizontalAlignment="Left" Margin="342,196,0,0" VerticalAlignment="Top" Width="40" Height="17" RenderTransformOrigin="0.85,-0.412">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -214,7 +214,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task16comboBox" HorizontalAlignment="Left" Margin="185,212,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task16comboBox" HorizontalAlignment="Left" Margin="342,215,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -226,7 +226,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task17comboBox" HorizontalAlignment="Left" Margin="185,235,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task17comboBox" HorizontalAlignment="Left" Margin="342,238,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -238,7 +238,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task18comboBox" HorizontalAlignment="Left" Margin="185,255,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task18comboBox" HorizontalAlignment="Left" Margin="342,258,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
@@ -250,7 +250,7 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <ComboBox x:Name="task19comboBox" HorizontalAlignment="Left" Margin="185,277,0,0" VerticalAlignment="Top" Width="40" Height="17">
+        <ComboBox x:Name="task19comboBox" HorizontalAlignment="Left" Margin="342,280,0,0" VerticalAlignment="Top" Width="40" Height="17">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
