@@ -127,11 +127,31 @@ namespace StateExam.UI
 
         private void pdf_Click(object sender, RoutedEventArgs e)
         {
-            PDFWriter pdf = new PDFWriter();
-            VariantGenerator varger = new VariantGenerator();
-            pdf.GetAllDict += varger.GetDict;
-            pdf.AddToPDFFile();
-            MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            //    PDFWriter pdf = new PDFWriter();
+            //    VariantGenerator varger = new VariantGenerator();
+            //    pdf.GetAllDict += varger.GetDict;
+            //    pdf.AddToPDFFile();
+            //    MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            // Configure save file dialog box
+            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
+            dlg.FileName = "Variant"; // Default file name
+            dlg.DefaultExt = ".pdf"; // Default file extension
+            dlg.Filter = "PDF file (.pdf)|*.pdf"; // Filter files by extension
+
+            // Show save file dialog box
+            Nullable<bool> result = dlg.ShowDialog();
+
+            // Process save file dialog box results
+            if (result == true)
+            {
+                // Save document
+                string filename = dlg.FileName;
+                PDFWriter pdf = new PDFWriter();
+                VariantGenerator varger = new VariantGenerator();
+                pdf.GetAllDict += varger.GetDict;
+                pdf.AddToPDFFile(filename);
+                MessageBox.Show("Tasks have been added to a PDF file", "Notification");
+            }
         }
 
         private void levelcombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -258,6 +278,103 @@ namespace StateExam.UI
         }
 
         private void task19checkbox_Checked(object sender, RoutedEventArgs e)
+        {
+            GeneratorButtonEnable(task19checkbox.IsChecked, task19comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+
+
+        private void task1comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task1checkbox.IsChecked, task1comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task2comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task2checkbox.IsChecked, task2comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task3comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task3checkbox.IsChecked, task3comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task4comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task4checkbox.IsChecked, task4comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task5comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task5checkbox.IsChecked, task5comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task6comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task6checkbox.IsChecked, task6comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task7comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task7checkbox.IsChecked, task7comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task8comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task8checkbox.IsChecked, task8comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task9comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task9checkbox.IsChecked, task9comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task10comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task10checkbox.IsChecked, task10comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task11comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task11checkbox.IsChecked, task11comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task12comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task12checkbox.IsChecked, task12comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task13comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task13checkbox.IsChecked, task13comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task14comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task14checkbox.IsChecked, task14comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task15comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task15checkbox.IsChecked, task15comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task16comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task16checkbox.IsChecked, task16comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task17comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task17checkbox.IsChecked, task17comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task18comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task18checkbox.IsChecked, task18comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task19comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             GeneratorButtonEnable(task19checkbox.IsChecked, task19comboBox.SelectedIndex, levelcombobox.SelectedIndex);
         }

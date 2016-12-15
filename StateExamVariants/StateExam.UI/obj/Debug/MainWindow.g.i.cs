@@ -620,60 +620,174 @@ namespace StateExam.UI {
             return;
             case 25:
             this.task1comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 37 "..\..\MainWindow.xaml"
+            this.task1comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task1comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 26:
             this.task2comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 49 "..\..\MainWindow.xaml"
+            this.task2comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task2comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 27:
             this.task3comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 61 "..\..\MainWindow.xaml"
+            this.task3comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task3comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 28:
             this.task4comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 73 "..\..\MainWindow.xaml"
+            this.task4comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task4comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 29:
             this.task5comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 85 "..\..\MainWindow.xaml"
+            this.task5comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task5comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 30:
             this.task6comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 97 "..\..\MainWindow.xaml"
+            this.task6comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task6comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 31:
             this.task7comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 109 "..\..\MainWindow.xaml"
+            this.task7comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task7comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 32:
             this.task8comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 121 "..\..\MainWindow.xaml"
+            this.task8comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task8comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 33:
             this.task9comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 133 "..\..\MainWindow.xaml"
+            this.task9comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task9comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 34:
             this.task10comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 145 "..\..\MainWindow.xaml"
+            this.task10comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task10comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 35:
             this.task11comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 157 "..\..\MainWindow.xaml"
+            this.task11comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task11comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 36:
             this.task12comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 169 "..\..\MainWindow.xaml"
+            this.task12comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task12comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 37:
             this.task13comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 181 "..\..\MainWindow.xaml"
+            this.task13comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task13comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 38:
             this.task14comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 193 "..\..\MainWindow.xaml"
+            this.task14comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task14comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 39:
             this.task15comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 205 "..\..\MainWindow.xaml"
+            this.task15comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task15comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 40:
             this.task16comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 217 "..\..\MainWindow.xaml"
+            this.task16comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task16comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 41:
             this.task17comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 229 "..\..\MainWindow.xaml"
+            this.task17comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task17comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 42:
             this.task18comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 241 "..\..\MainWindow.xaml"
+            this.task18comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task18comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             case 43:
             this.task19comboBox = ((System.Windows.Controls.ComboBox)(target));
+            
+            #line 253 "..\..\MainWindow.xaml"
+            this.task19comboBox.SelectionChanged += new System.Windows.Controls.SelectionChangedEventHandler(this.task19comboBox_SelectionChanged);
+            
+            #line default
+            #line hidden
             return;
             }
             this._contentLoaded = true;
