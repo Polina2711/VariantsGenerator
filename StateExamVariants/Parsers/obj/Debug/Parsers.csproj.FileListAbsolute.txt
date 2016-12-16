@@ -20,3 +20,14 @@ C:\Users\dbortsov\Source\Repos\VariantsGenerator6\StateExamVariants\Parsers\bin\
 C:\Users\dbortsov\Source\Repos\VariantsGenerator6\StateExamVariants\Parsers\obj\Debug\Parsers.csprojResolveAssemblyReference.cache
 C:\Users\dbortsov\Source\Repos\VariantsGenerator6\StateExamVariants\Parsers\obj\Debug\Parsers.exe
 C:\Users\dbortsov\Source\Repos\VariantsGenerator6\StateExamVariants\Parsers\obj\Debug\Parsers.pdb
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\Parsers.exe.config
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\Parsers.exe
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\Parsers.pdb
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.dll
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\itextsharp.dll
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\HtmlAgilityPack.xml
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\bin\Debug\itextsharp.xml
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\obj\Debug\Parsers.csprojResolveAssemblyReference.cache
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\obj\Debug\Parsers.exe
+C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\Parsers\obj\Debug\Parsers.pdb

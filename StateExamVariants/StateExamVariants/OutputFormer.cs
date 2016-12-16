@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 
 namespace StateExamVariants
 {
-    public class OutputFormer
+    public class OutputFormer:IOutputFormer
     {
         public event Func<int, List<string[]>> GetValueFromDict;
 

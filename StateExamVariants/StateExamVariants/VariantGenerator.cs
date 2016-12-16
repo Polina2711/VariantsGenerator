@@ -8,8 +8,9 @@ using System.Threading.Tasks;
 
 namespace StateExamVariants
 {
-    public class VariantGenerator
+    public class VariantGenerator: IVariantGenerator
     {
+
         public event Func<int, string[]> GetTaskProblem;
 
         public static Dictionary<int, List<string[]>> dict = new Dictionary<int, List<string[]>>();

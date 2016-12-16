@@ -25,16 +25,18 @@ namespace StateExam.UI
         {
             InitializeComponent();
         }
-
         private void generator_Click(object sender, RoutedEventArgs e)
         {
             pdf.IsEnabled = true;
-            VariantGenerator varger = new VariantGenerator();
+            //IVariantGenerator varger = Factory.Default.GetVarientGenerator();
             ParserFromMathege parser = new ParserFromMathege();
-            varger.GetTaskProblem += parser.GetTask;
+            //varger.GetTaskProblem += parser.GetTask;
 
             if (levelcombobox.Text == "Advanced")
             {
+                IVariantGenerator varger = Factory.Default.GetVarientGenerator();
+                varger.GetTaskProblem += parser.GetTask;
+
                 varger.ClearDict();
 
                 if (task1checkbox.IsChecked == true)
@@ -112,6 +114,10 @@ namespace StateExam.UI
                 if (task19checkbox.IsChecked == true)
                 {
                     varger.Generator(19, int.Parse(task19comboBox.Text));
+                }
+                if (task20checkbox.IsChecked == true)
+                {
+                    varger.Generator(20, int.Parse(task20comboBox.Text));
                 }
 
                 AlVariant window = new AlVariant();
@@ -120,6 +126,9 @@ namespace StateExam.UI
 
             else if (levelcombobox.Text == "Base")
             {
+                IVariantGenerator varger = Factory.Default.GetBaseVarientGenerator();
+                varger.GetTaskProblem += parser.GetBaseTask;
+
                 varger.ClearDict();
 
                 if (task1checkbox.IsChecked == true)
@@ -198,8 +207,12 @@ namespace StateExam.UI
                 {
                     varger.Generator(19, int.Parse(task19comboBox.Text));
                 }
+                if (task20checkbox.IsChecked == true)
+                {
+                    varger.Generator(20, int.Parse(task20comboBox.Text));
+                }
 
-                BLVariant window= new BLVariant();
+                BLVariant window = new BLVariant();
                 window.Show();
             }
 
@@ -209,11 +222,6 @@ namespace StateExam.UI
 
         private void pdf_Click(object sender, RoutedEventArgs e)
         {
-            //    PDFWriter pdf = new PDFWriter();
-            //    VariantGenerator varger = new VariantGenerator();
-            //    pdf.GetAllDict += varger.GetDict;
-            //    pdf.AddToPDFFile();
-            //    MessageBox.Show("Tasks have been added to a PDF file", "Notification");
             // Configure save file dialog box
             Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
             dlg.FileName = "Variant"; // Default file name
@@ -232,13 +240,12 @@ namespace StateExam.UI
                 VariantGenerator varger = new VariantGenerator();
                 pdf.GetAllDict += varger.GetDict;
                 pdf.AddToPDFFile(filename);
-                MessageBox.Show("Tasks have been added to a PDF file", "Notification");
             }
         }
 
         private void levelcombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (levelcombobox.SelectedIndex>-1&&
+            if (levelcombobox.SelectedIndex > -1 &&
                 (task1checkbox.IsChecked == true ||
                 task2checkbox.IsChecked == true ||
                 task3checkbox.IsChecked == true ||
@@ -257,13 +264,14 @@ namespace StateExam.UI
                 task16checkbox.IsChecked == true ||
                 task17checkbox.IsChecked == true ||
                 task18checkbox.IsChecked == true ||
-                task19checkbox.IsChecked == true))
+                task19checkbox.IsChecked == true ||
+                task20checkbox.IsChecked == true))
             {
                 generator.IsEnabled = true;
             }
         }
 
-        public void GeneratorButtonEnable (bool? checkbox, int combobox, int level)
+        public void GeneratorButtonEnable(bool? checkbox, int combobox, int level)
         {
             if (checkbox == true && combobox > -1 && level > -1)
                 generator.IsEnabled = true;
@@ -364,6 +372,11 @@ namespace StateExam.UI
             GeneratorButtonEnable(task19checkbox.IsChecked, task19comboBox.SelectedIndex, levelcombobox.SelectedIndex);
         }
 
+        private void task20checkbox_Checked(object sender, RoutedEventArgs e)
+        {
+            GeneratorButtonEnable(task20checkbox.IsChecked, task20comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
 
 
         private void task1comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -459,6 +472,11 @@ namespace StateExam.UI
         private void task19comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             GeneratorButtonEnable(task19checkbox.IsChecked, task19comboBox.SelectedIndex, levelcombobox.SelectedIndex);
+        }
+
+        private void task20comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GeneratorButtonEnable(task20checkbox.IsChecked, task20comboBox.SelectedIndex, levelcombobox.SelectedIndex);
         }
     }
 }

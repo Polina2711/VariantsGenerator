@@ -23,8 +23,8 @@ namespace StateExam.UI
             InitializeComponent();
         }
 
-        OutputFormer output = new OutputFormer();
-        VariantGenerator varger = new VariantGenerator();
+        IOutputFormer output = Factory.Default.GetOutputFormer();
+        IVariantGenerator varger = Factory.Default.GetVarientGenerator();
 
         public void Outputer(int taskid)
         {

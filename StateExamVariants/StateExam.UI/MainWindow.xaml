@@ -270,9 +270,9 @@
             <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
-        <CheckBox x:Name="task19checkbox_Copy" Content="20" HorizontalAlignment="Left" Margin="167,290,0,0" VerticalAlignment="Top" Checked="task19checkbox_Checked" Width="28" Height="15" RenderTransformOrigin="0.464,2"/>
+        <CheckBox x:Name="task20checkbox" Content="20" HorizontalAlignment="Left" Margin="167,290,0,0" VerticalAlignment="Top" Checked="task19checkbox_Checked" Width="28" Height="15" RenderTransformOrigin="0.464,2"/>
        
-        <ComboBox x:Name="task19comboBox_Copy" HorizontalAlignment="Left" Margin="210,289,0,0" VerticalAlignment="Top" Width="34" Height="16" SelectionChanged="task19comboBox_SelectionChanged">
+        <ComboBox x:Name="task20comboBox" HorizontalAlignment="Left" Margin="210,289,0,0" VerticalAlignment="Top" Width="34" Height="16" SelectionChanged="task19comboBox_SelectionChanged">
             <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>

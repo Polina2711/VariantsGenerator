@@ -47,9 +47,10 @@ namespace StateExamVariants
             return FinalTask;
         }
 
-        public string GetBaseTask(int n)
+        public string[] GetBaseTask(int n)
         {
-            string path = "http://base.mathege.ru/tasks/" + n + "/" + n + "/" + n + "_1.png";
+            string[] path = new string[1];
+            path[0] = "http://base.mathege.ru/tasks/" + n + "/" + n + "/" + n + "_1.png";
             return path;
         }
 

@@ -56,10 +56,14 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseOutputFormer.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Data.cs" />
     <Compile Include="Exercise.cs" />
+    <Compile Include="Factory.cs" />
     <Compile Include="ImageList\ImageCollection.cs" />
+    <Compile Include="IOutputFormer.cs" />
+    <Compile Include="IVariantGenerator.cs" />
     <Compile Include="Migrations\201612081414587_Initial.cs" />
     <Compile Include="Migrations\201612081414587_Initial.Designer.cs">
       <DependentUpon>201612081414587_Initial.cs</DependentUpon>
@@ -70,6 +74,7 @@
     <Compile Include="PDFWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VariantGenerator.cs" />
+    <Compile Include="VariantGeneratorBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -97,26 +102,26 @@
     <EmbeddedResource Include="AL\Task1.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="BL\Base1.txt" />
-    <Content Include="BL\Base10.txt" />
-    <Content Include="BL\Base11.txt" />
-    <Content Include="BL\Base12.txt" />
-    <Content Include="BL\Base13.txt" />
-    <Content Include="BL\Base14.txt" />
-    <Content Include="BL\Base15.txt" />
-    <Content Include="BL\Base16.txt" />
-    <Content Include="BL\Base17.txt" />
-    <Content Include="BL\Base18.txt" />
-    <Content Include="BL\Base19.txt" />
-    <Content Include="BL\Base2.txt" />
-    <Content Include="BL\Base20.txt" />
-    <Content Include="BL\Base3.txt" />
-    <Content Include="BL\Base4.txt" />
-    <Content Include="BL\Base5.txt" />
-    <Content Include="BL\Base6.txt" />
-    <Content Include="BL\Base7.txt" />
-    <Content Include="BL\Base8.txt" />
-    <Content Include="BL\Base9.txt" />
+    <EmbeddedResource Include="BL\Base1.txt" />
+    <EmbeddedResource Include="BL\Base10.txt" />
+    <EmbeddedResource Include="BL\Base11.txt" />
+    <EmbeddedResource Include="BL\Base12.txt" />
+    <EmbeddedResource Include="BL\Base13.txt" />
+    <EmbeddedResource Include="BL\Base14.txt" />
+    <EmbeddedResource Include="BL\Base15.txt" />
+    <EmbeddedResource Include="BL\Base16.txt" />
+    <EmbeddedResource Include="BL\Base17.txt" />
+    <EmbeddedResource Include="BL\Base18.txt" />
+    <EmbeddedResource Include="BL\Base19.txt" />
+    <EmbeddedResource Include="BL\Base2.txt" />
+    <EmbeddedResource Include="BL\Base20.txt" />
+    <EmbeddedResource Include="BL\Base3.txt" />
+    <EmbeddedResource Include="BL\Base4.txt" />
+    <EmbeddedResource Include="BL\Base5.txt" />
+    <EmbeddedResource Include="BL\Base6.txt" />
+    <EmbeddedResource Include="BL\Base7.txt" />
+    <EmbeddedResource Include="BL\Base8.txt" />
+    <EmbeddedResource Include="BL\Base9.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
