@@ -24,13 +24,13 @@ namespace StateExamVariants
 
             foreach (var item in GetAllDict?.Invoke())
             {
-                foreach (var array in item.Value)
+                if(item.Key < 13)
                 {
-                    doc.Add(new Paragraph(" ", font));
-                    doc.Add(new Paragraph(string.Format("№" + item.Key), font));
-                    foreach (var strng in array)
+                    foreach (var array in item.Value)
                     {
-                        if (item.Key < 13)
+                        doc.Add(new Paragraph(" ", font));
+                        doc.Add(new Paragraph(string.Format("№" + item.Key), font));
+                        foreach (var strng in array)
                         {
                             if (strng.Count() != 0)
                             {
@@ -44,14 +44,27 @@ namespace StateExamVariants
                                 }
                             }
                         }
-                        else
+                    }
+                   
+                }
+
+                else
+                {
+                    foreach (var array in item.Value)
+                    {
+                        foreach (var strng in array)
                         {
                             var url = new Uri(strng);
                             iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
+                            float scaler = ((doc.PageSize.Width - doc.LeftMargin
+                                - doc.RightMargin) / img.Width) * 100;
+                            img.ScalePercent(scaler);
+
                             doc.Add(img);
                         }
                     }
                 }
+
             }
 
             doc.Close();

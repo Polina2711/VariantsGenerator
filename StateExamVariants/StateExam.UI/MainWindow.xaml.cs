@@ -118,6 +118,49 @@ namespace StateExam.UI
                 }
 
                 AlVariant window = new AlVariant();
+
+                Dictionary<int, List<string[]>> dict = varger.GetDict();
+                List<string[]> list = new List<string[]>();
+
+                if (dict.TryGetValue(1, out list) == false)
+                    window.Task1button.IsEnabled = false;
+                if (dict.TryGetValue(2, out list) == false)
+                    window.Task2button.IsEnabled = false;
+                if (dict.TryGetValue(3, out list) == false)
+                    window.Task3button.IsEnabled = false;
+                if (dict.TryGetValue(4, out list) == false)
+                    window.Task4button.IsEnabled = false;
+                if (dict.TryGetValue(5, out list) == false)
+                    window.Task5button.IsEnabled = false;
+                if (dict.TryGetValue(6, out list) == false)
+                    window.Task6button.IsEnabled = false;
+                if (dict.TryGetValue(7, out list) == false)
+                    window.Task7button.IsEnabled = false;
+                if (dict.TryGetValue(8, out list) == false)
+                    window.Task8button.IsEnabled = false;
+                if (dict.TryGetValue(9, out list) == false)
+                    window.Task9button.IsEnabled = false;
+                if (dict.TryGetValue(10, out list) == false)
+                    window.Task10button.IsEnabled = false;
+                if (dict.TryGetValue(11, out list) == false)
+                    window.Task11button.IsEnabled = false;
+                if (dict.TryGetValue(12, out list) == false)
+                    window.Task12button.IsEnabled = false;
+                if (dict.TryGetValue(13, out list) == false)
+                    window.Task13button.IsEnabled = false;
+                if (dict.TryGetValue(14, out list) == false)
+                    window.Task14button.IsEnabled = false;
+                if (dict.TryGetValue(15, out list) == false)
+                    window.Task15button.IsEnabled = false;
+                if (dict.TryGetValue(16, out list) == false)
+                    window.Task16button.IsEnabled = false;
+                if (dict.TryGetValue(17, out list) == false)
+                    window.Task17button.IsEnabled = false;
+                if (dict.TryGetValue(18, out list) == false)
+                    window.Task18button.IsEnabled = false;
+                if (dict.TryGetValue(19, out list) == false)
+                    window.Task19button.IsEnabled = false;
+
                 window.Show();
             }
 
@@ -210,34 +253,55 @@ namespace StateExam.UI
                 }
 
                 BLVariant window = new BLVariant();
+                Dictionary<int, List<string[]>> dict = varger.GetDict();
+                List<string[]> list = new List<string[]>();
+
+                if (dict.TryGetValue(1, out list) == false)
+                    window.basetask1button.IsEnabled = false;
+                if (dict.TryGetValue(2, out list) == false)
+                    window.basetask2button.IsEnabled = false;
+                if (dict.TryGetValue(3, out list) == false)
+                    window.basetask3button.IsEnabled = false;
+                if (dict.TryGetValue(4, out list) == false)
+                    window.basetask4button.IsEnabled = false;
+                if (dict.TryGetValue(5, out list) == false)
+                    window.basetask5button.IsEnabled = false;
+                if (dict.TryGetValue(6, out list) == false)
+                    window.basetask6button.IsEnabled = false;
+                if (dict.TryGetValue(7, out list) == false)
+                    window.basetask7button.IsEnabled = false;
+                if (dict.TryGetValue(8, out list) == false)
+                    window.basetask8button.IsEnabled = false;
+                if (dict.TryGetValue(9, out list) == false)
+                    window.basetask9button.IsEnabled = false;
+                if (dict.TryGetValue(10, out list) == false)
+                    window.basetask10button.IsEnabled = false;
+                if (dict.TryGetValue(11, out list) == false)
+                    window.basetask11button.IsEnabled = false;
+                if (dict.TryGetValue(12, out list) == false)
+                    window.basetask12button.IsEnabled = false;
+                if (dict.TryGetValue(13, out list) == false)
+                    window.basetask13button.IsEnabled = false;
+                if (dict.TryGetValue(14, out list) == false)
+                    window.basetask14button.IsEnabled = false;
+                if (dict.TryGetValue(15, out list) == false)
+                    window.basetask15button.IsEnabled = false;
+                if (dict.TryGetValue(16, out list) == false)
+                    window.basetask16button.IsEnabled = false;
+                if (dict.TryGetValue(17, out list) == false)
+                    window.basetask17button.IsEnabled = false;
+                if (dict.TryGetValue(18, out list) == false)
+                    window.basetask18button.IsEnabled = false;
+                if (dict.TryGetValue(19, out list) == false)
+                    window.basetask19button.IsEnabled = false;
+                if (dict.TryGetValue(20, out list) == false)
+                    window.basetask20button.IsEnabled = false;
+
                 window.Show();
             }
 
             else
                 MessageBox.Show("Choose the level of the variant", "Error");
-        }
-
-        private void pdf_Click(object sender, RoutedEventArgs e)
-        {
-            // Configure save file dialog box
-            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
-            dlg.FileName = "Variant"; // Default file name
-            dlg.DefaultExt = ".pdf"; // Default file extension
-            dlg.Filter = "PDF file (.pdf)|*.pdf"; // Filter files by extension
-
-            // Show save file dialog box
-            Nullable<bool> result = dlg.ShowDialog();
-
-            // Process save file dialog box results
-            if (result == true)
-            {
-                // Save document
-                string filename = dlg.FileName;
-                PDFWriter pdf = new PDFWriter();
-                VariantGenerator varger = new VariantGenerator();
-                pdf.GetAllDict += varger.GetDict;
-                pdf.AddToPDFFile(filename);
-            }
         }
 
         private void levelcombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)

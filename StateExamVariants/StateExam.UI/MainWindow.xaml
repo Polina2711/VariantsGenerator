@@ -8,7 +8,6 @@
         Title="MainWindow" Height="416.889" Width="525">
     <Grid>
         <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="58,333,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16" IsEnabled="False"/>
-        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187" FontSize="16" Click="pdf_Click" IsEnabled="False"/>
         <ComboBox x:Name="levelcombobox" HorizontalAlignment="Left" Margin="58,41,0,0" VerticalAlignment="Top" Width="83" SelectionChanged="levelcombobox_SelectionChanged">
             <ComboBoxItem Content="Advanced" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="Base" HorizontalAlignment="Left" Width="92"/>
