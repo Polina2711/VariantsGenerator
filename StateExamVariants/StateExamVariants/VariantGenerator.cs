@@ -32,9 +32,17 @@ namespace StateExamVariants
                 }
                 reader.Close();
 
-                string[] result = GetTaskProblem?.Invoke(int.Parse(tasknumbers[(r.Next(tasknumbers.Count))]));
-                onetask.Add(result);
-
+                if (tasknum < 13)
+                {
+                    string[] result = GetTaskProblem?.Invoke(int.Parse(tasknumbers[(r.Next(tasknumbers.Count))]));
+                    onetask.Add(result);
+                }
+                else
+                {
+                    string[] result = new string[1];
+                    result[0] = tasknumbers[(r.Next(tasknumbers.Count))];
+                    onetask.Add(result);
+                }
                 numboftasks--;
             }
             dict.Add(tasknum, onetask);

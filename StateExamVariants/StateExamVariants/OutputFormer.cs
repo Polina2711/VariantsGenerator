@@ -42,25 +42,42 @@ namespace StateExamVariants
                         {
                             if (!item.Equals(""))
                             {
-                                if (item[0] != '/')
-                                    outputstuff.Add(new TextBlock
+                                if (taskid < 13)
+                                {
+                                    if (item[0] != '/')
+                                        outputstuff.Add(new TextBlock
+                                        {
+                                            Text = item,
+                                            Margin = new Thickness(5, 0, 0, 0),
+                                            VerticalAlignment = VerticalAlignment.Center
+                                        });
+                                    else
                                     {
-                                        Text = item,
-                                        Margin = new Thickness(5, 0, 0, 0),
-                                        VerticalAlignment = VerticalAlignment.Center
-                                    });
+                                        BitmapImage image = new BitmapImage();
+                                        image.BeginInit();
+                                        image.UriSource = new Uri("http://mathege.ru" + item, UriKind.Absolute);
+                                        image.EndInit();
+                                        outputstuff.Add(new System.Windows.Controls.Image
+                                        {
+                                            Source = image,
+                                            Margin = new Thickness(5, 0, 0, 0),
+                                            Width = 100,
+                                            Height = 40
+                                        });
+                                    }
+                                }
+
                                 else
                                 {
                                     BitmapImage image = new BitmapImage();
                                     image.BeginInit();
-                                    image.UriSource = new Uri("http://mathege.ru" + item, UriKind.Absolute);
+                                    image.UriSource = new Uri(item, UriKind.Absolute);
                                     image.EndInit();
                                     outputstuff.Add(new System.Windows.Controls.Image
                                     {
                                         Source = image,
                                         Margin = new Thickness(5, 0, 0, 0),
-                                        Width = 100,
-                                        Height = 40
+                                        Width = 650
                                     });
                                 }
                             }

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseOutputFormer.cs" />
+    <Compile Include="BasePDFWriter.cs" />
     <Compile Include="BaseVariantGenerator.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="Data.cs" />
@@ -64,12 +65,16 @@
     <Compile Include="Factory.cs" />
     <Compile Include="ImageList\ImageCollection.cs" />
     <Compile Include="IOutputFormer.cs" />
+    <Compile Include="IPDFWriter.cs" />
     <Compile Include="IVariantGenerator.cs" />
     <Compile Include="Migrations\201612081414587_Initial.cs" />
     <Compile Include="Migrations\201612081414587_Initial.Designer.cs">
       <DependentUpon>201612081414587_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="OutputFormer.cs" />
     <Compile Include="ParserFromMathege.cs" />
     <Compile Include="PDFWriter.cs" />
@@ -78,12 +83,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache" />
+    <None Include="obj\Debug\StateExamVariants.Data.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201612081414587_Initial.resx">
       <DependentUpon>201612081414587_Initial.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="obj\Debug\StateExamVariants.Migrations.Initial.resources" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AL\Task10.txt" />
@@ -122,6 +131,23 @@
     <EmbeddedResource Include="BL\Base7.txt" />
     <EmbeddedResource Include="BL\Base8.txt" />
     <EmbeddedResource Include="BL\Base9.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AL\Task13.txt" />
+    <EmbeddedResource Include="AL\Task14.txt" />
+    <EmbeddedResource Include="AL\Task15.txt" />
+    <EmbeddedResource Include="AL\Task16.txt" />
+    <EmbeddedResource Include="AL\Task17.txt" />
+    <EmbeddedResource Include="AL\Task18.txt" />
+    <EmbeddedResource Include="AL\Task19.txt" />
+    <Content Include="bin\Debug\StateExamVariants.dll" />
+    <Content Include="bin\Debug\StateExamVariants.pdb" />
+    <Content Include="obj\Debug\StateExamVariants.Data.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\StateExamVariants.dll" />
+    <Content Include="obj\Debug\StateExamVariants.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

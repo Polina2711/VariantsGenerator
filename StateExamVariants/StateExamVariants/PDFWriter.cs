@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace StateExamVariants
 {
-    public class PDFWriter
+    public class PDFWriter:IPDFWriter
     {
         public event Func<Dictionary<int, List<string[]>>> GetAllDict;
 
@@ -30,16 +30,25 @@ namespace StateExamVariants
                     doc.Add(new Paragraph(string.Format("№" + item.Key), font));
                     foreach (var strng in array)
                     {
-                        if (strng.Count() != 0)
+                        if (item.Key < 13)
                         {
-                            if (strng[0] != '/')
-                                doc.Add(new Paragraph(strng, font));
-                            else
+                            if (strng.Count() != 0)
                             {
-                                var url = new Uri("http://mathege.ru" + strng);
-                                iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
-                                doc.Add(img);
+                                if (strng[0] != '/')
+                                    doc.Add(new Paragraph(strng, font));
+                                else
+                                {
+                                    var url = new Uri("http://mathege.ru" + strng);
+                                    iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
+                                    doc.Add(img);
+                                }
                             }
+                        }
+                        else
+                        {
+                            var url = new Uri(strng);
+                            iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
+                            doc.Add(img);
                         }
                     }
                 }
@@ -47,8 +56,6 @@ namespace StateExamVariants
 
             doc.Close();
         }
-
-       
     }
 }
 

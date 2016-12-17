@@ -10,7 +10,6 @@
         <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Height="30" Margin="15,30,0,0" VerticalAlignment="Top" Width="90" FontSize="16"/>
         <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="30" Margin="105,30,0,0" VerticalAlignment="Top" Width="30"/>
         <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Margin="15,65,0,0" VerticalAlignment="Top" Width="120" FontSize="16"/>
-        <Button x:Name="button" Content="Solution &amp; Answer" HorizontalAlignment="Left" Height="35" Margin="10,551,0,0" VerticalAlignment="Top" Width="267" FontSize="16"/>
         <ListBox x:Name="outputListbox" Margin="15,123,31,82" Height="Auto" Width="Auto"/>
 
     </Grid>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="ALVariant" Height="300" Width="300">
+        Title="ALVariant" Height="312.299" Width="334.06">
     <Grid Margin="0,0,0,-20">
         <Label x:Name="lab" Content="Advanced Level Variant" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Width="272" FontSize="16"/>
         <Label x:Name="lab1" Content="Part I " HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top" FontSize="16"/>
@@ -29,6 +29,7 @@
         <Button x:Name="Task17button" Content="17" HorizontalAlignment="Left" Height="20" Margin="180,67,0,0" VerticalAlignment="Top" Width="51" Click="Task17button_Click"/>
         <Button x:Name="Task18button" Content="18" HorizontalAlignment="Left" Height="20" Margin="180,92,0,0" VerticalAlignment="Top" Width="51" Click="Task18button_Click"/>
         <Button x:Name="Task19button" Content="19" HorizontalAlignment="Left" Height="20" Margin="180,117,0,0" VerticalAlignment="Top" Width="51" RenderTransformOrigin="0.588,1.9" Click="Task19button_Click"/>
-        
+        <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" VerticalAlignment="Top" Width="110" Margin="206,10,0,0" Height="26" Click="pdf_Click"/>
+
     </Grid>
 </Window>

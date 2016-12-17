@@ -23,6 +23,7 @@ namespace StateExamVariants
 
         private IVariantGenerator _variantGenerator;
         private IOutputFormer _outputFormer;
+        private IPDFWriter _pdfWriter;
 
         public IVariantGenerator GetVarientGenerator()
         {
@@ -50,6 +51,20 @@ namespace StateExamVariants
             if (_outputFormer == null)
                 _outputFormer = new BaseOutputFormer();
             return _outputFormer;
+        }
+
+        public IPDFWriter GetPDFWriter()
+        {
+            if (_pdfWriter == null)
+                _pdfWriter = new PDFWriter();
+            return _pdfWriter;
+        }
+
+        public IPDFWriter GetBasePDFWriter()
+        {
+            if (_pdfWriter == null)
+                _pdfWriter = new BasePDFWriter();
+            return _pdfWriter;
         }
     }
 }

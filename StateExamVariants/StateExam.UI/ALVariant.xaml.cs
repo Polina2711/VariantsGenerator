@@ -140,5 +140,28 @@ namespace StateExam.UI
         {
             Outputer(19);
         }
+
+        private void pdf_Click(object sender, RoutedEventArgs e)
+        {
+            // Configure save file dialog box
+            Microsoft.Win32.SaveFileDialog dlg = new Microsoft.Win32.SaveFileDialog();
+            dlg.FileName = "Variant"; // Default file name
+            dlg.DefaultExt = ".pdf"; // Default file extension
+            dlg.Filter = "PDF file (.pdf)|*.pdf"; // Filter files by extension
+
+            // Show save file dialog box
+            Nullable<bool> result = dlg.ShowDialog();
+
+            // Process save file dialog box results
+            if (result == true)
+            {
+                // Save document
+                string filename = dlg.FileName;
+                IPDFWriter pdf = Factory.Default.GetPDFWriter();
+                IVariantGenerator varger = Factory.Default.GetVarientGenerator();
+                pdf.GetAllDict += varger.GetDict;
+                pdf.AddToPDFFile(filename);
+            }
+        }
     }
 }

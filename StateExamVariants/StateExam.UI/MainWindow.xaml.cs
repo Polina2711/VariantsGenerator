@@ -27,10 +27,7 @@ namespace StateExam.UI
         }
         private void generator_Click(object sender, RoutedEventArgs e)
         {
-            pdf.IsEnabled = true;
-            //IVariantGenerator varger = Factory.Default.GetVarientGenerator();
             ParserFromMathege parser = new ParserFromMathege();
-            //varger.GetTaskProblem += parser.GetTask;
 
             if (levelcombobox.Text == "Advanced")
             {
@@ -364,7 +361,6 @@ namespace StateExam.UI
         private void task18checkbox_Checked(object sender, RoutedEventArgs e)
         {
             GeneratorButtonEnable(task18checkbox.IsChecked, task18comboBox.SelectedIndex, levelcombobox.SelectedIndex);
-
         }
 
         private void task19checkbox_Checked(object sender, RoutedEventArgs e)

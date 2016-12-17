@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="416.889" Width="525">
     <Grid>
-        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="57,25,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16" IsEnabled="False"/>
+        <Button x:Name="generator" Content="Generate" HorizontalAlignment="Left" Height="43" Margin="58,333,0,0" VerticalAlignment="Top" Width="187" Click="generator_Click" FontSize="16" IsEnabled="False"/>
         <Button x:Name="pdf" Content="Add to PDF file" HorizontalAlignment="Left" Height="43" Margin="277,25,0,0" VerticalAlignment="Top" Width="187" FontSize="16" Click="pdf_Click" IsEnabled="False"/>
-        <ComboBox x:Name="levelcombobox" HorizontalAlignment="Left" Margin="277,104,0,0" VerticalAlignment="Top" Width="83" SelectionChanged="levelcombobox_SelectionChanged">
+        <ComboBox x:Name="levelcombobox" HorizontalAlignment="Left" Margin="58,41,0,0" VerticalAlignment="Top" Width="83" SelectionChanged="levelcombobox_SelectionChanged">
             <ComboBoxItem Content="Advanced" HorizontalAlignment="Left" Width="92"/>
             <ComboBoxItem Content="Base" HorizontalAlignment="Left" Width="92"/>
         </ComboBox>
         <Label x:Name="exerciseslabel" Content="Exercises" HorizontalAlignment="Left" Margin="57,68,0,0" VerticalAlignment="Top" Width="84" FontSize="16"/>
-        <Label x:Name="levellabel" Content="Level" HorizontalAlignment="Left" Margin="277,70,0,0" VerticalAlignment="Top" Width="72" FontSize="16" Height="29"/>
+        <Label x:Name="levellabel" Content="Level" HorizontalAlignment="Left" Margin="58,10,0,0" VerticalAlignment="Top" Width="72" FontSize="16" Height="29"/>
         <CheckBox x:Name="task1checkbox" Content="1" HorizontalAlignment="Left" Margin="52,107,0,0" VerticalAlignment="Top" Checked="task1checkbox_Checked"/>
         <CheckBox x:Name="task2checkbox" Content="2" HorizontalAlignment="Left" Margin="52,126,0,0" VerticalAlignment="Top" Checked="task2checkbox_Checked" Width="30" Height="15"/>
         <CheckBox x:Name="task3checkbox" Content="3" HorizontalAlignment="Left" Margin="52,146,0,0" VerticalAlignment="Top" Checked="task3checkbox_Checked" Width="30" Height="16"/>
