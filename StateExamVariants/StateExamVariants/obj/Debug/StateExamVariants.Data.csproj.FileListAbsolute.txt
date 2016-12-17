@@ -104,3 +104,5 @@ C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\StateExamVar
 C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
 C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
 C:\Users\dbortsov\Source\Repos\VariantsGenerator9\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
+C:\Users\ale\Desktop\teamproject\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.dll
+C:\Users\ale\Desktop\teamproject\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.xml

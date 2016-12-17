@@ -34,7 +34,7 @@ namespace StateExamVariants
         public IVariantGenerator GetBaseVarientGenerator()
         {
             if (_variantGenerator == null)
-                _variantGenerator = new VariantGeneratorBL();
+                _variantGenerator = new BaseVariantGenerator();
             return _variantGenerator;
         }
 
