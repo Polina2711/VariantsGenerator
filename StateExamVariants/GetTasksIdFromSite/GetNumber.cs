@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace GetTasksIdFromSite
 
         public string[] GetNumberOfBaseTask()
         {
-            StreamWriter sw = new StreamWriter(@"C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\BaseTasks\TextFileBase.txt");
+            StreamWriter sw = new StreamWriter(@"GetTasksIdFromSite.BaseTasks.TextFileBase.txt");
             string uri = "http://base.mathege.ru/";
             string html;
             html = new WebClient() { Encoding = Encoding.UTF8 }.DownloadString(uri);
@@ -46,7 +47,7 @@ namespace GetTasksIdFromSite
             for (int i = 0; i < 12; i++)
             {
                 var number = i + 1;
-                var path = @"C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\AdvTasks\Task" + number + ".txt";
+                var path = @"GetTasksIdFromSite.AdvTasks.Task" + number + ".txt";
                 streamwriter[i] = new StreamWriter(path);
                 tasklist[i] = "Задание " + number + "";
             }

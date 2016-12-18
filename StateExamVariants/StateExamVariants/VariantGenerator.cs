@@ -5,6 +5,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace StateExamVariants
 {
@@ -34,8 +35,16 @@ namespace StateExamVariants
 
                 if (tasknum < 13)
                 {
-                    string[] result = GetTaskProblem?.Invoke(int.Parse(tasknumbers[(r.Next(tasknumbers.Count))]));
-                    onetask.Add(result);
+                    try
+                        {
+                            string[] result = GetTaskProblem?.Invoke(int.Parse(tasknumbers[(r.Next(tasknumbers.Count))]));
+                            onetask.Add(result);
+                        }
+                    
+                    catch (Exception ex)
+                        {
+                            MessageBox.Show("Check Internet Connection", "Oops...", MessageBoxButton.OK, MessageBoxImage.Warning);
+                        }
                 }
                 else
                 {
