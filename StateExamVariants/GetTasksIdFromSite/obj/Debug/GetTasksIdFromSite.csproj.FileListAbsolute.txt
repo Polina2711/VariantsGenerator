@@ -4,6 +4,3 @@ C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVaria
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\bin\Debug\GetTasksIdFromSite.pdb
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.exe
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.pdb
-C:\Users\ale\Desktop\п\StateExamVariants\GetTasksIdFromSite\bin\Debug\GetTasksIdFromSite.exe.config
-C:\Users\ale\Desktop\п\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.exe
-C:\Users\ale\Desktop\п\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.pdb
