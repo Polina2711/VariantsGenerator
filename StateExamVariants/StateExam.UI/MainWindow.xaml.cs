@@ -28,141 +28,183 @@ namespace StateExam.UI
         private void generator_Click(object sender, RoutedEventArgs e)
         {
             ParserFromMathege parser = new ParserFromMathege();
-
-            if (levelcombobox.Text == "Advanced")
+            try
             {
-                IVariantGenerator varger = Factory.Default.GetVarientGenerator();
-                varger.GetTaskProblem += parser.GetTask;
+                if (levelcombobox.Text == "Advanced")
+                {
+                    IVariantGenerator varger = Factory.Default.GetVarientGenerator();
+                    varger.GetTaskProblem += parser.GetTask;
 
-                varger.ClearDict();
+                    varger.ClearDict();
 
-                if (task1checkbox.IsChecked == true)
-                {
-                    varger.Generator(1, int.Parse(task1comboBox.Text));
-                }
-                if (task2checkbox.IsChecked == true)
-                {
-                    varger.Generator(2, int.Parse(task2comboBox.Text));
-                }
-                if (task3checkbox.IsChecked == true)
-                {
-                    varger.Generator(3, int.Parse(task3comboBox.Text));
-                }
-                if (task4checkbox.IsChecked == true)
-                {
-                    varger.Generator(4, int.Parse(task4comboBox.Text));
-                }
-                if (task5checkbox.IsChecked == true)
-                {
-                    varger.Generator(5, int.Parse(task5comboBox.Text));
-                }
-                if (task6checkbox.IsChecked == true)
-                {
-                    varger.Generator(6, int.Parse(task6comboBox.Text));
-                }
-                if (task7checkbox.IsChecked == true)
-                {
-                    varger.Generator(7, int.Parse(task7comboBox.Text));
-                }
-                if (task8checkbox.IsChecked == true)
-                {
-                    varger.Generator(8, int.Parse(task8comboBox.Text));
-                }
-                if (task9checkbox.IsChecked == true)
-                {
-                    varger.Generator(9, int.Parse(task9comboBox.Text));
-                }
-                if (task10checkbox.IsChecked == true)
-                {
-                    varger.Generator(10, int.Parse(task10comboBox.Text));
-                }
-                if (task11checkbox.IsChecked == true)
-                {
-                    varger.Generator(11, int.Parse(task11comboBox.Text));
-                }
-                if (task12checkbox.IsChecked == true)
-                {
-                    varger.Generator(12, int.Parse(task12comboBox.Text));
-                }
-                if (task13checkbox.IsChecked == true)
-                {
-                    varger.Generator(13, int.Parse(task13comboBox.Text));
-                }
-                if (task14checkbox.IsChecked == true)
-                {
-                    varger.Generator(14, int.Parse(task14comboBox.Text));
-                }
-                if (task15checkbox.IsChecked == true)
-                {
-                    varger.Generator(15, int.Parse(task15comboBox.Text));
-                }
-                if (task16checkbox.IsChecked == true)
-                {
-                    varger.Generator(16, int.Parse(task16comboBox.Text));
-                }
-                if (task17checkbox.IsChecked == true)
-                {
-                    varger.Generator(17, int.Parse(task17comboBox.Text));
-                }
-                if (task18checkbox.IsChecked == true)
-                {
-                    varger.Generator(18, int.Parse(task18comboBox.Text));
-                }
-                if (task19checkbox.IsChecked == true)
-                {
-                    varger.Generator(19, int.Parse(task19comboBox.Text));
-                }
-                if (task20checkbox.IsChecked == true)
-                {
-                    varger.Generator(20, int.Parse(task20comboBox.Text));
-                }
+                    if (task1checkbox.IsChecked == true)
+                    {
+                        if (task1comboBox.Text!="")
+                            varger.Generator(1, int.Parse(task1comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 1");
+                    }
+                    if (task2checkbox.IsChecked == true)
+                    {
+                        if (task2comboBox.Text != "")
+                            varger.Generator(2, int.Parse(task2comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 2");
+                    }
+                    if (task3checkbox.IsChecked == true)
+                    {
+                        if (task3comboBox.Text != "")
+                            varger.Generator(3, int.Parse(task3comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 3");
+                    }
+                    if (task4checkbox.IsChecked == true)
+                    {
+                        if (task4comboBox.Text != "")
+                            varger.Generator(4, int.Parse(task4comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 4");
+                    }
+                    if (task5checkbox.IsChecked == true)
+                    {
+                        if (task5comboBox.Text != "")
+                            varger.Generator(5, int.Parse(task5comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 5");
+                    }
+                    if (task6checkbox.IsChecked == true)
+                    {
+                        if (task6comboBox.Text != "")
+                            varger.Generator(6, int.Parse(task6comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 6");
+                    }
+                    if (task7checkbox.IsChecked == true)
+                    {
+                        if (task7comboBox.Text != "")
+                            varger.Generator(7, int.Parse(task7comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 7");
+                    }
+                    if (task8checkbox.IsChecked == true)
+                    {
+                        if (task8comboBox.Text != "")
+                            varger.Generator(8, int.Parse(task8comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 8");
+                    }
+                    if (task9checkbox.IsChecked == true)
+                    {
+                        if (task9comboBox.Text != "")
+                            varger.Generator(9, int.Parse(task9comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 9");
+                    }
+                    if (task10checkbox.IsChecked == true)
+                    {
+                        if (task10comboBox.Text != "")
+                            varger.Generator(10, int.Parse(task10comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 10");
+                    }
+                    if (task11checkbox.IsChecked == true)
+                    {
+                        if (task11comboBox.Text != "")
+                            varger.Generator(11, int.Parse(task11comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 11");
+                    }
+                    if (task12checkbox.IsChecked == true)
+                    {
+                        if (task12comboBox.Text != "")
+                            varger.Generator(12, int.Parse(task12comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 12");
+                    }
+                    if (task13checkbox.IsChecked == true)
+                    {
+                        if (task13comboBox.Text != "")
+                            varger.Generator(13, int.Parse(task13comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 13");
+                    }
+                    if (task14checkbox.IsChecked == true)
+                    {
+                        if (task14comboBox.Text != "")
+                            varger.Generator(14, int.Parse(task14comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 14");
+                    }
+                    if (task15checkbox.IsChecked == true)
+                    {
+                        if (task15comboBox.Text != "")
+                            varger.Generator(15, int.Parse(task15comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 15");
+                    }
+                    if (task16checkbox.IsChecked == true)
+                    {
+                        if (task16comboBox.Text != "")
+                            varger.Generator(16, int.Parse(task16comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 16");
+                    }
+                    if (task17checkbox.IsChecked == true)
+                    {
+                        if (task17comboBox.Text != "")
+                            varger.Generator(17, int.Parse(task17comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 17");
+                    }
+                    if (task18checkbox.IsChecked == true)
+                    {
+                        if (task18comboBox.Text != "")
+                            varger.Generator(18, int.Parse(task18comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 18");
+                    }
+                    if (task19checkbox.IsChecked == true)
+                    {
+                        if (task19comboBox.Text != "")
+                            varger.Generator(19, int.Parse(task19comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 19");
+                    }
+                    if (task20checkbox.IsChecked == true)
+                    {
+                        if (task20comboBox.Text != "")
+                            varger.Generator(20, int.Parse(task20comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 20");
+                    }
 
-                AlVariant window = new AlVariant();
+                    AlVariant window = new AlVariant();
 
-                Dictionary<int, List<string[]>> dict = varger.GetDict();
-                List<string[]> list = new List<string[]>();
+                    Dictionary<int, List<string[]>> dict = varger.GetDict();
+                    List<string[]> list = new List<string[]>();
 
-                if (dict.TryGetValue(1, out list) == false)
-                    window.Task1button.IsEnabled = false;
-                if (dict.TryGetValue(2, out list) == false)
-                    window.Task2button.IsEnabled = false;
-                if (dict.TryGetValue(3, out list) == false)
-                    window.Task3button.IsEnabled = false;
-                if (dict.TryGetValue(4, out list) == false)
-                    window.Task4button.IsEnabled = false;
-                if (dict.TryGetValue(5, out list) == false)
-                    window.Task5button.IsEnabled = false;
-                if (dict.TryGetValue(6, out list) == false)
-                    window.Task6button.IsEnabled = false;
-                if (dict.TryGetValue(7, out list) == false)
-                    window.Task7button.IsEnabled = false;
-                if (dict.TryGetValue(8, out list) == false)
-                    window.Task8button.IsEnabled = false;
-                if (dict.TryGetValue(9, out list) == false)
-                    window.Task9button.IsEnabled = false;
-                if (dict.TryGetValue(10, out list) == false)
-                    window.Task10button.IsEnabled = false;
-                if (dict.TryGetValue(11, out list) == false)
-                    window.Task11button.IsEnabled = false;
-                if (dict.TryGetValue(12, out list) == false)
-                    window.Task12button.IsEnabled = false;
-                if (dict.TryGetValue(13, out list) == false)
-                    window.Task13button.IsEnabled = false;
-                if (dict.TryGetValue(14, out list) == false)
-                    window.Task14button.IsEnabled = false;
-                if (dict.TryGetValue(15, out list) == false)
-                    window.Task15button.IsEnabled = false;
-                if (dict.TryGetValue(16, out list) == false)
-                    window.Task16button.IsEnabled = false;
-                if (dict.TryGetValue(17, out list) == false)
-                    window.Task17button.IsEnabled = false;
-                if (dict.TryGetValue(18, out list) == false)
-                    window.Task18button.IsEnabled = false;
-                if (dict.TryGetValue(19, out list) == false)
-                    window.Task19button.IsEnabled = false;
+                    if (dict.TryGetValue(1, out list) == false)
+                        window.Task1button.IsEnabled = false;
+                    if (dict.TryGetValue(2, out list) == false)
+                        window.Task2button.IsEnabled = false;
+                    if (dict.TryGetValue(3, out list) == false)
+                        window.Task3button.IsEnabled = false;
+                    if (dict.TryGetValue(4, out list) == false)
+                        window.Task4button.IsEnabled = false;
+                    if (dict.TryGetValue(5, out list) == false)
+                        window.Task5button.IsEnabled = false;
+                    if (dict.TryGetValue(6, out list) == false)
+                        window.Task6button.IsEnabled = false;
+                    if (dict.TryGetValue(7, out list) == false)
+                        window.Task7button.IsEnabled = false;
+                    if (dict.TryGetValue(8, out list) == false)
+                        window.Task8button.IsEnabled = false;
+                    if (dict.TryGetValue(9, out list) == false)
+                        window.Task9button.IsEnabled = false;
+                    if (dict.TryGetValue(10, out list) == false)
+                        window.Task10button.IsEnabled = false;
+                    if (dict.TryGetValue(11, out list) == false)
+                        window.Task11button.IsEnabled = false;
+                    if (dict.TryGetValue(12, out list) == false)
+                        window.Task12button.IsEnabled = false;
+                    if (dict.TryGetValue(13, out list) == false)
+                        window.Task13button.IsEnabled = false;
+                    if (dict.TryGetValue(14, out list) == false)
+                        window.Task14button.IsEnabled = false;
+                    if (dict.TryGetValue(15, out list) == false)
+                        window.Task15button.IsEnabled = false;
+                    if (dict.TryGetValue(16, out list) == false)
+                        window.Task16button.IsEnabled = false;
+                    if (dict.TryGetValue(17, out list) == false)
+                        window.Task17button.IsEnabled = false;
+                    if (dict.TryGetValue(18, out list) == false)
+                        window.Task18button.IsEnabled = false;
+                    if (dict.TryGetValue(19, out list) == false)
+                        window.Task19button.IsEnabled = false;
 
-                window.Show();
-            }
+                    window.Show();
+                }
+            
 
             else if (levelcombobox.Text == "Base")
             {
@@ -171,88 +213,128 @@ namespace StateExam.UI
 
                 varger.ClearDict();
 
-                if (task1checkbox.IsChecked == true)
-                {
-                    varger.Generator(1, int.Parse(task1comboBox.Text));
-                }
-                if (task2checkbox.IsChecked == true)
-                {
-                    varger.Generator(2, int.Parse(task2comboBox.Text));
-                }
-                if (task3checkbox.IsChecked == true)
-                {
-                    varger.Generator(3, int.Parse(task3comboBox.Text));
-                }
-                if (task4checkbox.IsChecked == true)
-                {
-                    varger.Generator(4, int.Parse(task4comboBox.Text));
-                }
-                if (task5checkbox.IsChecked == true)
-                {
-                    varger.Generator(5, int.Parse(task5comboBox.Text));
-                }
-                if (task6checkbox.IsChecked == true)
-                {
-                    varger.Generator(6, int.Parse(task6comboBox.Text));
-                }
-                if (task7checkbox.IsChecked == true)
-                {
-                    varger.Generator(7, int.Parse(task7comboBox.Text));
-                }
-                if (task8checkbox.IsChecked == true)
-                {
-                    varger.Generator(8, int.Parse(task8comboBox.Text));
-                }
-                if (task9checkbox.IsChecked == true)
-                {
-                    varger.Generator(9, int.Parse(task9comboBox.Text));
-                }
-                if (task10checkbox.IsChecked == true)
-                {
-                    varger.Generator(10, int.Parse(task10comboBox.Text));
-                }
-                if (task11checkbox.IsChecked == true)
-                {
-                    varger.Generator(11, int.Parse(task11comboBox.Text));
-                }
-                if (task12checkbox.IsChecked == true)
-                {
-                    varger.Generator(12, int.Parse(task12comboBox.Text));
-                }
-                if (task13checkbox.IsChecked == true)
-                {
-                    varger.Generator(13, int.Parse(task13comboBox.Text));
-                }
-                if (task14checkbox.IsChecked == true)
-                {
-                    varger.Generator(14, int.Parse(task14comboBox.Text));
-                }
-                if (task15checkbox.IsChecked == true)
-                {
-                    varger.Generator(15, int.Parse(task15comboBox.Text));
-                }
-                if (task16checkbox.IsChecked == true)
-                {
-                    varger.Generator(16, int.Parse(task16comboBox.Text));
-                }
-                if (task17checkbox.IsChecked == true)
-                {
-                    varger.Generator(17, int.Parse(task17comboBox.Text));
-                }
-                if (task18checkbox.IsChecked == true)
-                {
-                    varger.Generator(18, int.Parse(task18comboBox.Text));
-                }
-                if (task19checkbox.IsChecked == true)
-                {
-                    varger.Generator(19, int.Parse(task19comboBox.Text));
-                }
-                if (task20checkbox.IsChecked == true)
-                {
-                    varger.Generator(20, int.Parse(task20comboBox.Text));
-                }
+                    if (task1checkbox.IsChecked == true)
+                    {
+                        if (task1comboBox.Text != "")
+                            varger.Generator(1, int.Parse(task1comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 1");
+                    }
+                    if (task2checkbox.IsChecked == true)
+                    {
+                        if (task2comboBox.Text != "")
+                            varger.Generator(2, int.Parse(task2comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 2");
+                    }
+                    if (task3checkbox.IsChecked == true)
+                    {
+                        if (task3comboBox.Text != "")
+                            varger.Generator(3, int.Parse(task3comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 3");
+                    }
+                    if (task4checkbox.IsChecked == true)
+                    {
+                        if (task4comboBox.Text != "")
+                            varger.Generator(4, int.Parse(task4comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 4");
+                    }
+                    if (task5checkbox.IsChecked == true)
+                    {
+                        if (task5comboBox.Text != "")
+                            varger.Generator(5, int.Parse(task5comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 5");
+                    }
+                    if (task6checkbox.IsChecked == true)
+                    {
+                        if (task6comboBox.Text != "")
+                            varger.Generator(6, int.Parse(task6comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 6");
+                    }
+                    if (task7checkbox.IsChecked == true)
+                    {
+                        if (task7comboBox.Text != "")
+                            varger.Generator(7, int.Parse(task7comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 7");
+                    }
+                    if (task8checkbox.IsChecked == true)
+                    {
+                        if (task8comboBox.Text != "")
+                            varger.Generator(8, int.Parse(task8comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 8");
+                    }
+                    if (task9checkbox.IsChecked == true)
+                    {
+                        if (task9comboBox.Text != "")
+                            varger.Generator(9, int.Parse(task9comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 9");
+                    }
+                    if (task10checkbox.IsChecked == true)
+                    {
+                        if (task10comboBox.Text != "")
+                            varger.Generator(10, int.Parse(task10comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 10");
+                    }
+                    if (task11checkbox.IsChecked == true)
+                    {
+                        if (task11comboBox.Text != "")
+                            varger.Generator(11, int.Parse(task11comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 11");
+                    }
+                    if (task12checkbox.IsChecked == true)
+                    {
+                        if (task12comboBox.Text != "")
+                            varger.Generator(12, int.Parse(task12comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 12");
+                    }
+                    if (task13checkbox.IsChecked == true)
+                    {
+                        if (task13comboBox.Text != "")
+                            varger.Generator(13, int.Parse(task13comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 13");
+                    }
+                    if (task14checkbox.IsChecked == true)
+                    {
+                        if (task14comboBox.Text != "")
+                            varger.Generator(14, int.Parse(task14comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 14");
+                    }
+                    if (task15checkbox.IsChecked == true)
+                    {
+                        if (task15comboBox.Text != "")
+                            varger.Generator(15, int.Parse(task15comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 15");
+                    }
+                    if (task16checkbox.IsChecked == true)
+                    {
+                        if (task16comboBox.Text != "")
+                            varger.Generator(16, int.Parse(task16comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 16");
+                    }
+                    if (task17checkbox.IsChecked == true)
+                    {
+                        if (task17comboBox.Text != "")
+                            varger.Generator(17, int.Parse(task17comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 17");
+                    }
+                    if (task18checkbox.IsChecked == true)
+                    {
+                        if (task18comboBox.Text != "")
+                            varger.Generator(18, int.Parse(task18comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 18");
+                    }
+                    if (task19checkbox.IsChecked == true)
+                    {
+                        if (task19comboBox.Text != "")
+                            varger.Generator(19, int.Parse(task19comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 19");
+                    }
+                    if (task20checkbox.IsChecked == true)
+                    {
+                        if (task20comboBox.Text != "")
+                            varger.Generator(20, int.Parse(task20comboBox.Text));
+                        else throw new ArgumentException("Select the quantity of exercise 20");
+                    }
 
-                BLVariant window = new BLVariant();
+                    BLVariant window = new BLVariant();
                 Dictionary<int, List<string[]>> dict = varger.GetDict();
                 List<string[]> list = new List<string[]>();
 
@@ -302,6 +384,11 @@ namespace StateExam.UI
 
             else
                 MessageBox.Show("Choose the level of the variant", "Error");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("A handled exception was occured:\n" + ex.Message, "Oops...", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
 
         private void levelcombobox_SelectionChanged(object sender, SelectionChangedEventArgs e)
