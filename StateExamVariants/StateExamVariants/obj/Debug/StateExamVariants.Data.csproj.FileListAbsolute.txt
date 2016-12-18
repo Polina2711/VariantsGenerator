@@ -120,17 +120,17 @@ C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVaria
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll.config
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.pdb
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.dll
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.dll
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.xml
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.xml
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csprojResolveAssemblyReference.cache
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Migrations.Initial.resources
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
-C:\Users\dbortsov\Source\Repos\VariantsGenerator14\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll.config
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.pdb
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.dll
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.dll
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.xml
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.xml
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csprojResolveAssemblyReference.cache
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Migrations.Initial.resources
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
+C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb

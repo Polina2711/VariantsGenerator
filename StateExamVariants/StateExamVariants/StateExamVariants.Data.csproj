@@ -133,6 +133,26 @@
     <EmbeddedResource Include="BL\Base9.txt" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="TaskNumPics\TaskPic1.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic10.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic11.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic12.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic13.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic14.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic15.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic16.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic17.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic18.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic19.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic2.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic20.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic3.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic4.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic5.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic6.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic7.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic8.PNG" />
+    <EmbeddedResource Include="TaskNumPics\TaskPic9.PNG" />
     <EmbeddedResource Include="AL\Task13.txt" />
     <EmbeddedResource Include="AL\Task14.txt" />
     <EmbeddedResource Include="AL\Task15.txt" />

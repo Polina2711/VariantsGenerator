@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,7 +30,12 @@ namespace StateExamVariants
                     foreach (var array in item.Value)
                     {
                         doc.Add(new Paragraph(" ", font));
-                        doc.Add(new Paragraph(string.Format("№" + item.Key), font));
+
+                        Assembly assembly = Assembly.GetExecutingAssembly();
+                        Stream stream = assembly.GetManifestResourceStream("StateExamVariants.TaskNumPics.TaskPic" + item.Key + ".PNG");
+                        iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(stream);
+                        doc.Add(img);
+
                         foreach (var strng in array)
                         {
                             if (strng.Count() != 0)
@@ -39,7 +45,7 @@ namespace StateExamVariants
                                 else
                                 {
                                     var url = new Uri("http://mathege.ru" + strng);
-                                    iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
+                                    img = iTextSharp.text.Image.GetInstance(url);
                                     doc.Add(img);
                                 }
                             }
@@ -56,6 +62,7 @@ namespace StateExamVariants
                         {
                             var url = new Uri(strng);
                             iTextSharp.text.Image img = iTextSharp.text.Image.GetInstance(url);
+
                             float scaler = ((doc.PageSize.Width - doc.LeftMargin
                                 - doc.RightMargin) / img.Width) * 100;
                             img.ScalePercent(scaler);

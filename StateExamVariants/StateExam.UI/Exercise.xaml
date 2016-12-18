@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="Exercise" Height="626.786" Width="763.393">
+        Title="Tasks" Height="626.786" Width="763.393">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -14,10 +14,12 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
-
+            <RowDefinition/>
+         
         </Grid.RowDefinitions>
-        <Label x:Name="label" Content="Task:" HorizontalAlignment="Left" Grid.Row="1" FontSize="18"/>
+        <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Grid.Row="0" FontSize="16"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Right" Grid.Row="0"/>
+        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Grid.Row="1"/>
         <ListBox x:Name="outputListbox" Grid.Row="2" Height="Auto"/>
 
     </Grid>
