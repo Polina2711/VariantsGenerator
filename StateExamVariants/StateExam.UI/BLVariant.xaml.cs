@@ -34,7 +34,7 @@ namespace StateExam.UI
             output.GetValueFromDict += varger.GetValueByKeyFromDict;
             Exercise window = new Exercise();
             window.Show();
-            window.listBox.Items.Add(taskid);
+            
             List<UIElement> result = output.FormOutputText(taskid);
             if (result == null)
                 return;

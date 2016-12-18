@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="State Exam Variant Generator" Height="100" Width="600">
+        Title="State Exam Variant Generator" Height="100" Width="600" ResizeMode="CanResizeWithGrip" SizeToContent="WidthAndHeight">
     <Grid Height="69" VerticalAlignment="Top" >
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -15,9 +15,9 @@
         <Grid.RowDefinitions>
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Button x:Name="BaseGenerator"  Grid.Column="0" Content="Generate base variant" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="BaseGenerator_Click"  />
-        <Button x:Name="AdvancedGenerator"  Grid.Column="1" Content="Generate advanced variant" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center" Click="AdvancedGenerator_Click"  />
-        <Button x:Name="ManualGenerator"  Grid.Column="2" Content="Generate variant manually" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="ManualGenerator_Click"/>
+        <Button x:Name="BaseGenerator"  Grid.Column="0" Content="Generate base variant" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="BaseGenerator_Click" Height="40" Width="150" Background="YellowGreen" />
+        <Button x:Name="AdvancedGenerator"  Grid.Column="1" Content="Generate advanced variant" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center" Click="AdvancedGenerator_Click" Height="40" Width="150" Background="Orange"  />
+        <Button x:Name="ManualGenerator"  Grid.Column="2" Content="Generate variant manually" Margin="5,6,0,5" HorizontalAlignment="Center" VerticalAlignment="Center"  Click="ManualGenerator_Click" Height="40" Width="150" Background="LightBlue"/>
 
     </Grid>
 </Window>

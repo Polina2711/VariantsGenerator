@@ -28,13 +28,13 @@
             <RowDefinition />
             <RowDefinition />
         </Grid.RowDefinitions>
-        <Button x:Name="generator" Content="Generate" Grid.Row="12" Grid.ColumnSpan="4"  Click="generator_Click" FontSize="16" IsEnabled="False"/>
-        <ComboBox x:Name="levelcombobox" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="3" SelectionChanged="levelcombobox_SelectionChanged">
-            <ComboBoxItem Content="Advanced" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="Base" HorizontalAlignment="Left" Width="92"/>
+        <Button x:Name="generator" Content="Generate" Grid.Row="12" Grid.ColumnSpan="4"  Click="generator_Click" FontSize="16" IsEnabled="False" Background="YellowGreen"/>
+        <ComboBox x:Name="levelcombobox" Grid.Row="0" Grid.Column="2" Grid.ColumnSpan="2" SelectionChanged="levelcombobox_SelectionChanged ">
+            <ComboBoxItem Content="Advanced" HorizontalAlignment="Left" Width="252"/>
+            <ComboBoxItem Content="Base" HorizontalAlignment="Left" Width="252"/>
         </ComboBox>
-        <Label x:Name="exerciseslabel" Content="Add  task number and number of tasks:" Grid.ColumnSpan="4" Grid.Row="1"/>
-        <Label x:Name="levellabel" Content="Choose level of exam" Grid.Column="0" Grid.Row="0" />
+        <Label x:Name="exerciseslabel" Content="Add  task number and number of tasks:" Grid.ColumnSpan="4" Grid.Row="1" FontSize="16"/>
+        <Label x:Name="levellabel" Content="Choose level of exam:" Grid.Column="0" Grid.Row="0" FontSize="16" Grid.ColumnSpan="2" />
         <CheckBox x:Name="task1checkbox" Content="1" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <CheckBox x:Name="task2checkbox" Content="2" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <CheckBox x:Name="task3checkbox" Content="3" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
@@ -55,100 +55,100 @@
         <CheckBox x:Name="task18checkbox" Content="18" Grid.Row="9" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <CheckBox x:Name="task19checkbox" Content="19" Grid.Row="10" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <ComboBox x:Name="task1comboBox" Grid.Row="2" Grid.Column="1" SelectionChanged="task1comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task2comboBox" Grid.Row="3" Grid.Column="1" SelectionChanged="task2comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task3comboBox" Grid.Row="4" Grid.Column="1" SelectionChanged="task3comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task4comboBox" Grid.Row="5" Grid.Column="1" SelectionChanged="task4comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task5comboBox" Grid.Row="6" Grid.Column="1" SelectionChanged="task5comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task6comboBox" Grid.Row="7" Grid.Column="1" SelectionChanged="task6comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task7comboBox" Grid.Row="8" Grid.Column="1" SelectionChanged="task7comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task8comboBox" Grid.Row="9" Grid.Column="1" SelectionChanged="task8comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task9comboBox" Grid.Row="10" Grid.Column="1" SelectionChanged="task9comboBox_SelectionChanged" RenderTransformOrigin="0.5,0.5">
             <ComboBox.RenderTransform>
@@ -159,150 +159,150 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </ComboBox.RenderTransform>
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task10comboBox" Grid.Row="11" Grid.Column="1" SelectionChanged="task10comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task11comboBox" Grid.Row="2" Grid.Column="3" SelectionChanged="task11comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task12comboBox" Grid.Row="3" Grid.Column="3" SelectionChanged="task12comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task13comboBox" Grid.Row="4" Grid.Column="3" SelectionChanged="task13comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task14comboBox" Grid.Row="5" Grid.Column="3" SelectionChanged="task14comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task15comboBox" Grid.Row="6" Grid.Column="3" SelectionChanged="task15comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task16comboBox" Grid.Row="7" Grid.Column="3" SelectionChanged="task16comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task17comboBox" Grid.Row="8" Grid.Column="3" SelectionChanged="task17comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task18comboBox" Grid.Row="9" Grid.Column="3" SelectionChanged="task18comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <ComboBox x:Name="task19comboBox" Grid.Row="10" Grid.Column="3" SelectionChanged="task19comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
         <CheckBox x:Name="task20checkbox" Content="20" Grid.Row="11" Grid.Column="2" Checked="task19checkbox_Checked"   HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
         <ComboBox x:Name="task20comboBox" Grid.Row="11" Grid.Column="3" SelectionChanged="task19comboBox_SelectionChanged">
-            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="92"/>
-            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="92"/>
+            <ComboBoxItem Content="1" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="2" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="3" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="4" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="5" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="6" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="7" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="8" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="9" HorizontalAlignment="Left" Width="123"/>
+            <ComboBoxItem Content="10" HorizontalAlignment="Left" Width="123"/>
         </ComboBox>
 
     </Grid>

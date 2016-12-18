@@ -43,7 +43,7 @@
         <Button x:Name="Task17button" Content="17" Grid.Row="2" Grid.Column="2" Click="Task17button_Click"/>
         <Button x:Name="Task18button" Content="18" Grid.Row="3" Grid.Column="2" Click="Task18button_Click"/>
         <Button x:Name="Task19button" Content="19" Grid.Row="4" Grid.Column="2" RenderTransformOrigin="0.588,1.9" Click="Task19button_Click"/>
-        <Button x:Name="pdf" Content="Add to PDF file" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Click="pdf_Click"/>
+        <Button x:Name="pdf" Content="Add to PDF file" Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="3" Click="pdf_Click" Background="Orange"/>
 
     </Grid>
 </Window>
