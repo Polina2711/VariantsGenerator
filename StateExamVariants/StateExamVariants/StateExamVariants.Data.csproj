@@ -59,11 +59,19 @@
     <Compile Include="BaseOutputFormer.cs" />
     <Compile Include="BasePDFWriter.cs" />
     <Compile Include="BaseVariantGenerator.cs" />
+    <Compile Include="Context.cs" />
+    <Compile Include="Data.cs" />
     <Compile Include="Exercise.cs" />
     <Compile Include="Factory.cs" />
+    <Compile Include="ImageList\ImageCollection.cs" />
     <Compile Include="IOutputFormer.cs" />
     <Compile Include="IPDFWriter.cs" />
     <Compile Include="IVariantGenerator.cs" />
+    <Compile Include="Migrations\201612081414587_Initial.cs" />
+    <Compile Include="Migrations\201612081414587_Initial.Designer.cs">
+      <DependentUpon>201612081414587_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -81,6 +89,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612081414587_Initial.resx">
+      <DependentUpon>201612081414587_Initial.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\StateExamVariants.Migrations.Initial.resources" />
   </ItemGroup>
   <ItemGroup>
