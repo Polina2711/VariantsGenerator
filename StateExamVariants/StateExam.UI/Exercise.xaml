@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="Exercises" Height="626.786" Width="763.393">
+        Title="Tasks" Height="626.786" Width="763.393">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
