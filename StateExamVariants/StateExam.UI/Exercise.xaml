@@ -5,12 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:StateExam.UI"
         mc:Ignorable="d"
-        Title="Window2" Height="626.786" Width="763.393">
+        Title="Exercises" Height="626.786" Width="763.393">
     <Grid>
-        <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Height="30" Margin="15,30,0,0" VerticalAlignment="Top" Width="90" FontSize="16"/>
-        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="30" Margin="105,30,0,0" VerticalAlignment="Top" Width="30"/>
-        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Margin="15,65,0,0" VerticalAlignment="Top" Width="120" FontSize="16"/>
-        <ListBox x:Name="outputListbox" Margin="15,123,31,82" Height="Auto" Width="Auto"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+         
+        </Grid.RowDefinitions>
+        <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Grid.Row="0" FontSize="16"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Right" Grid.Row="0"/>
+        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Grid.Row="1"/>
+        <ListBox x:Name="outputListbox" Grid.Row="2" Height="Auto"/>
 
     </Grid>
 </Window>
