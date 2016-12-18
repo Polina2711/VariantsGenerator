@@ -17,9 +17,9 @@
             <RowDefinition/>
          
         </Grid.RowDefinitions>
-        <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Grid.Row="0" FontSize="16"/>
+     
         <ListBox x:Name="listBox" HorizontalAlignment="Right" Grid.Row="0"/>
-        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Grid.Row="1"/>
+        <Label x:Name="label1" Content="Task:" HorizontalAlignment="Left" Grid.Row="1" FontSize="16"/>
         <ListBox x:Name="outputListbox" Grid.Row="2" Height="Auto"/>
 
     </Grid>
