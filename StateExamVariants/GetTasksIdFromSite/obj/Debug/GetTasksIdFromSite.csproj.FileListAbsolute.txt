@@ -1,0 +1,6 @@
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\bin\Debug\GetTasksIdFromSite.exe.config
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.csprojResolveAssemblyReference.cache
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\bin\Debug\GetTasksIdFromSite.exe
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\bin\Debug\GetTasksIdFromSite.pdb
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.exe
+C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\GetTasksIdFromSite\obj\Debug\GetTasksIdFromSite.pdb
