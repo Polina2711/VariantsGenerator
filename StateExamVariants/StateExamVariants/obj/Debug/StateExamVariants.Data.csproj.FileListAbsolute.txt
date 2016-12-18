@@ -116,8 +116,6 @@ C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVaria
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\bin\Debug\itextsharp.xml
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csprojResolveAssemblyReference.cache
-C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Migrations.Initial.resources
-C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.Data.csproj.GenerateResource.Cache
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.dll
 C:\Users\Николай Саныч\Source\Repos\VariantsGenerator\StateExamVariants\StateExamVariants\obj\Debug\StateExamVariants.pdb
 C:\Users\ale\Desktop\п\StateExamVariants\StateExamVariants\bin\Debug\StateExamVariants.dll.config
