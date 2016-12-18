@@ -153,9 +153,7 @@ namespace StateExam.UI
                     }
                     if (task20checkbox.IsChecked == true)
                     {
-                        if (task20comboBox.Text != "")
-                            varger.Generator(20, int.Parse(task20comboBox.Text));
-                        else throw new ArgumentException("Select the quantity of exercise 20");
+                        throw new ArgumentException("Advanced variant contains only 19 exercises");
                     }
 
                     AlVariant window = new AlVariant();
