@@ -14,7 +14,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition/>
          
         </Grid.RowDefinitions>
         <Label x:Name="label" Content="Exercise №" HorizontalAlignment="Left" Grid.Row="0" FontSize="16"/>
